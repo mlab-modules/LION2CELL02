@@ -1,14 +1,13 @@
-description: Template repository
+description: ' Dual-cell Li-Ion Battery management system with I2C interface and USB-C
+  charging. '
 github_branch: MODUL01A
 github_branches:
 - MODUL01A
-github_repo: MODUL01
-github_url: https://github.com/mlab-modules/MODUL01
+github_repo: LION2CELL02
+github_url: https://github.com/mlab-modules/LION2CELL02
 homepage: false
 images: []
 issues: 2
 mark: 50
-tags:
-- mlab
-- mlab-module
-title: MODUL01
+tags: []
+title: LION2CELL02
