@@ -535,6 +535,10 @@
     [
       "ff769b56-ac69-4554-8831-ccbbcdb6fdfa",
       "Fuel Gauge"
+    ],
+    [
+      "84542805-f3a9-4fad-892e-419f78d99400",
+      "Power Input"
     ]
   ],
   "text_variables": {}
