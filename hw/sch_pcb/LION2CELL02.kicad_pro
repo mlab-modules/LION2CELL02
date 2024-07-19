@@ -539,6 +539,10 @@
     [
       "84542805-f3a9-4fad-892e-419f78d99400",
       "Power Input"
+    ],
+    [
+      "b560fd90-9391-40fd-9d83-a8ee3a62b2ed",
+      "Power Output"
     ]
   ],
   "text_variables": {}
