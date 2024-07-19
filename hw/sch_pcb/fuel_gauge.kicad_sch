@@ -5487,7 +5487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_Texas:VQFN-32-4.1x4.1-EP-1.4"
+		(property "Footprint" "Mlab_IO:Texas_RSM0032A_VQFN-32-4.1x4.1-EP-1.4"
 			(at 120.65 109.22 0)
 			(effects
 				(font
@@ -5725,7 +5725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mlab_D:LED_1206"
 			(at 207.01 115.57 0)
 			(effects
 				(font
@@ -5795,12 +5795,13 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mlab_Pin_Headers:Straight_1x02"
 			(at 151.13 128.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6180,7 +6181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "battery-holder-keystone:SMD-1048-dual-18650"
+		(property "Footprint" "Mlab_Batery:BAT_BK-18650-PC4_no_screws"
 			(at 62.23 118.11 0)
 			(effects
 				(font
@@ -6199,6 +6200,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 62.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984412875079b91f87e9"
 			(at 62.23 118.11 0)
 			(effects
 				(font
@@ -6624,7 +6634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "battery-holder-keystone:SMD-1048-dual-18650"
+		(property "Footprint" "Mlab_Batery:BAT_BK-18650-PC4_no_screws"
 			(at 62.23 107.95 0)
 			(effects
 				(font
@@ -6643,6 +6653,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 62.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984412875079b91f87e9"
 			(at 62.23 107.95 0)
 			(effects
 				(font
@@ -6700,7 +6719,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mlab_D:LED_1206"
 			(at 195.58 121.92 0)
 			(effects
 				(font
@@ -7682,12 +7701,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mlab_Pin_Headers:Straight_1x02"
 			(at 132.08 154.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -7815,7 +7835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mlab_D:LED_1206"
 			(at 186.69 121.92 0)
 			(effects
 				(font
@@ -8193,7 +8213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mlab_D:LED_1206"
 			(at 186.69 110.49 0)
 			(effects
 				(font
@@ -8420,7 +8440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mlab_D:LED_1206"
 			(at 195.58 110.49 0)
 			(effects
 				(font
