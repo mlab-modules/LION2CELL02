@@ -1,4 +1,4 @@
-24290974593402117
+24296139219090635
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64770,6 +64770,13 @@ LTO1865-13_D19.0mm_P7.50mm
 0
 2
 2
+Mlab_Batery
+liion_18650_solder_tab
+
+
+0
+2
+2
 Mlab_C
 2pF_PCB
 
@@ -65631,6 +65638,13 @@ Texas_RQM0029A_VQFN-HR-28_4x4mm_P0.5mm
 0
 33
 29
+Mlab_IO
+Texas_RSM0032A_VQFN-32-4.1x4.1-EP-1.4
+
+
+0
+42
+33
 Mlab_IO
 Texas_S-WQFN-HR-18
 20-Pin Plastic Quad Flatpack No-Lead Package, Body 3.0x3.0x0.8mm, Texas Instruments (http://www.ti.com/lit/ds/symlink/tps22993.pdf)
@@ -66849,6 +66863,13 @@ SW_PUSH_SMALL
 0
 4
 2
+Mlab_T
+D_POWERDI5060-8_6.0x5.1mm_P1.27mm
+POWERDI diode, 6.0x5.1x1.1mm (https://www.diodes.com/assets/Package-Files/PowerDI5060-8.pdf)
+diode POWERDI 
+0
+5
+3
 Mlab_T
 QFN-20-1EP_5x5mm_Pitch0.65mm
 20-Lead Plastic Quad Flat, No Lead Package (MQ) - 5x5x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)
