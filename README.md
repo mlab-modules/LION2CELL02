@@ -1,6 +1,8 @@
 # LION2CELL02 - Dual-cell Li-Ion BMS with I2C interface and USB-C charging.
 
-The LION2CELL02 module is designed for managing the charging and protection of 2-cell Li-Ion battery stack. It incorporates advanced features for safe and efficient battery management, utilizing the BQ40Z50-R2 fuel gauge and BQ25792 battery charger ICs.
+The LION2CELL02 module is designed to manage the charging and protection of the 2-cell Li-Ion battery stack. It incorporates advanced safe and efficient battery management features, utilizing the BQ40Z50-R2 fuel gauge and BQ25792 battery charger ICs.
+
+![LION2CELL02 top](doc/gen/img/LION2CELL02-top.png)
 
 ## Features
 
