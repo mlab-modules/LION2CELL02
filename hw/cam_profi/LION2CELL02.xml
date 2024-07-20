@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/LION2CELL02.kicad_sch</source>
-    <date>2024-07-20T09:57:34+0000</date>
+    <date>2024-07-20T17:56:09+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -264,10 +264,10 @@
     </comp>
     <comp ref="C12">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C14663</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -282,10 +282,10 @@
     </comp>
     <comp ref="C13">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C14663</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -300,10 +300,10 @@
     </comp>
     <comp ref="C14">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C14663</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -318,10 +318,10 @@
     </comp>
     <comp ref="C15">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C14663</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -336,10 +336,10 @@
     </comp>
     <comp ref="C16">
       <value>2.2uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C23630</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -354,10 +354,10 @@
     </comp>
     <comp ref="C17">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -372,10 +372,10 @@
     </comp>
     <comp ref="C18">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -390,10 +390,10 @@
     </comp>
     <comp ref="C21">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -563,13 +563,13 @@
     </comp>
     <comp ref="Q3">
       <value>DMT31M7LPS</value>
-      <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
-        <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
+        <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
@@ -584,13 +584,13 @@
     </comp>
     <comp ref="Q5">
       <value>DMT31M7LPS</value>
-      <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
-        <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
+        <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
@@ -623,10 +623,10 @@
     </comp>
     <comp ref="R18">
       <value>10M</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C26082</field>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -641,10 +641,10 @@
     </comp>
     <comp ref="R19">
       <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25905</field>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -677,10 +677,10 @@
     </comp>
     <comp ref="R22">
       <value>10M</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C26082</field>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -695,10 +695,10 @@
     </comp>
     <comp ref="R23">
       <value>10M</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C26082</field>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -713,10 +713,10 @@
     </comp>
     <comp ref="R24">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25744</field>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -731,10 +731,10 @@
     </comp>
     <comp ref="R27">
       <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25905</field>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -749,10 +749,10 @@
     </comp>
     <comp ref="R28">
       <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25905</field>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -803,10 +803,10 @@
     </comp>
     <comp ref="R34">
       <value>100</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25076</field>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -820,16 +820,17 @@
       <tstamps>22e64696-c61b-4168-9818-ca4571518fb8</tstamps>
     </comp>
     <comp ref="R35">
-      <value>1mR</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <value>2mR</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>https://www.tme.eu/Document/9eb17c5caf6d68fb7c80b751e0adae3a/LR12.pdf</datasheet>
       <fields>
-        <field name="LCSC">C76287</field>
-        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
-        <field name="Datasheet"/>
+        <field name="UST_ID">669ba41c6fdfe6f54e2eb51d</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
+        <field name="Datasheet">https://www.tme.eu/Document/9eb17c5caf6d68fb7c80b751e0adae3a/LR12.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C76287"/>
+      <property name="UST_ID" value="669ba41c6fdfe6f54e2eb51d"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -839,10 +840,10 @@
     </comp>
     <comp ref="R36">
       <value>100</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25076</field>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -893,10 +894,10 @@
     </comp>
     <comp ref="TH1">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C279801</field>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -911,11 +912,11 @@
     </comp>
     <comp ref="TH2">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C279801</field>
         <field name="UST_ID"/>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -989,9 +990,9 @@
     </comp>
     <comp ref="C2">
       <value>0.1u</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1037,13 +1038,15 @@
     </comp>
     <comp ref="C5">
       <value>0.1u</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="UST_ID"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1101,9 +1104,9 @@
     </comp>
     <comp ref="C9">
       <value>47nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1167,9 +1170,9 @@
     </comp>
     <comp ref="C20">
       <value>4.7u</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1183,13 +1186,15 @@
     </comp>
     <comp ref="C24">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="UST_ID"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1199,9 +1204,9 @@
     </comp>
     <comp ref="C25">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1338,28 +1343,6 @@
       <sheetpath names="/Power Input/" tstamps="/84542805-f3a9-4fad-892e-419f78d99400/"/>
       <tstamps>bae7c665-139c-4dbe-8a9d-8ebfbf1fe23b</tstamps>
     </comp>
-    <comp ref="J5">
-      <value>USBC_USB4105-GF-A</value>
-      <footprint>Mlab_CON:USBC GCT_USB4105-GF-A</footprint>
-      <fields>
-        <field name="MFPN">USB4105-GF-A</field>
-        <field name="UST_ID">5fa0f94612875025b397795e</field>
-        <field name="MPN">USB4105-GF-A</field>
-        <field name="Footprint">Mlab_CON:USBC GCT_USB4105-GF-A</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="MLAB_CONNECTORS" part="USBC_USB4105-GF-A" description="USB 2.0-only Type-C Receptacle connector"/>
-      <property name="MFPN" value="USB4105-GF-A"/>
-      <property name="UST_ID" value="5fa0f94612875025b397795e"/>
-      <property name="MPN" value="USB4105-GF-A"/>
-      <property name="Sheetname" value="Power Input"/>
-      <property name="Sheetfile" value="power_Input.kicad_sch"/>
-      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
-      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
-      <sheetpath names="/Power Input/" tstamps="/84542805-f3a9-4fad-892e-419f78d99400/"/>
-      <tstamps>6f1f8294-3435-41fd-b0fa-6a3c11332531</tstamps>
-    </comp>
     <comp ref="J6">
       <value>HEADER_2x01_PARALLEL</value>
       <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
@@ -1438,13 +1421,13 @@
     </comp>
     <comp ref="Q1">
       <value>DMT31M7LPS</value>
-      <footprint>Mlab_IO:PowerDI5060-8</footprint>
+      <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
       <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
-        <field name="Footprint">Mlab_IO:PowerDI5060-8</field>
+        <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
@@ -1495,9 +1478,9 @@
     </comp>
     <comp ref="R3">
       <value>127k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1511,9 +1494,9 @@
     </comp>
     <comp ref="R4">
       <value>100k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1527,9 +1510,9 @@
     </comp>
     <comp ref="R5">
       <value>5.24k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1543,9 +1526,9 @@
     </comp>
     <comp ref="R6">
       <value>30.31k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1595,9 +1578,9 @@
     </comp>
     <comp ref="R9">
       <value>6.04k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1611,9 +1594,9 @@
     </comp>
     <comp ref="R11">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2185,35 +2168,34 @@
     <net code="6" name="/Fuel Gauge/SDA">
       <node ref="U3" pin="18" pinfunction="SMBD" pintype="open_collector"/>
     </net>
-    <net code="7" name="/Fuel Gauge/VCOM">
+    <net code="7" name="/Fuel Gauge/SR+">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="SRP" pintype="input"/>
+    </net>
+    <net code="8" name="/Fuel Gauge/SR-">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="SRN" pintype="input"/>
+    </net>
+    <net code="9" name="/Fuel Gauge/VCOM">
       <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
     </net>
-    <net code="8" name="/Power Input/D+">
+    <net code="10" name="/Power Input/D+">
       <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="J5" pin="A6" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="J5" pin="B6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="U1" pin="6" pinfunction="D+" pintype="bidirectional"/>
     </net>
-    <net code="9" name="/Power Input/D-">
+    <net code="11" name="/Power Input/D-">
       <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="J5" pin="A7" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="J5" pin="B7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="U1" pin="7" pinfunction="D-" pintype="bidirectional"/>
     </net>
-    <net code="10" name="/Power Input/PMID">
-      <node ref="C24" pin="1" pintype="passive"/>
-      <node ref="C25" pin="1" pintype="passive"/>
-      <node ref="C26" pin="1" pintype="passive"/>
-      <node ref="C27" pin="1" pintype="passive"/>
-      <node ref="U1" pin="29" pinfunction="PMID" pintype="bidirectional"/>
-    </net>
-    <net code="11" name="/Power Input/Power_load">
+    <net code="12" name="/Power Input/Power_load">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="P1" pintype="passive"/>
@@ -2221,20 +2203,20 @@
       <node ref="U1" pin="22" pinfunction="BAT" pintype="bidirectional"/>
       <node ref="U1" pin="23" pinfunction="BAT" pintype="bidirectional"/>
     </net>
-    <net code="12" name="/Power Input/REGN">
+    <net code="13" name="/Power Input/REGN">
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="REGN" pintype="bidirectional"/>
     </net>
-    <net code="13" name="/Power Input/SCL">
+    <net code="14" name="/Power Input/SCL">
       <node ref="U1" pin="14" pinfunction="SCL" pintype="bidirectional"/>
     </net>
-    <net code="14" name="/Power Input/SDA">
+    <net code="15" name="/Power Input/SDA">
       <node ref="U1" pin="15" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="15" name="/Power Input/System_load">
+    <net code="16" name="/Power Input/System_load">
       <node ref="C30" pin="1" pintype="passive"/>
       <node ref="C31" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
@@ -2247,7 +2229,7 @@
       <node ref="J4" pin="6" pinfunction="5" pintype="passive"/>
       <node ref="U1" pin="25" pinfunction="SYS" pintype="bidirectional"/>
     </net>
-    <net code="16" name="GND">
+    <net code="17" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C15" pin="1" pintype="passive"/>
@@ -2286,12 +2268,6 @@
       <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J4" pin="7" pinfunction="8" pintype="passive"/>
       <node ref="J4" pin="8" pinfunction="8" pintype="passive"/>
-      <node ref="J5" pin="A1/B12" pinfunction="GND" pintype="passive"/>
-      <node ref="J5" pin="B1/A12" pinfunction="GND" pintype="passive"/>
-      <node ref="J5" pin="G1" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J5" pin="G2" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J5" pin="G3" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J5" pin="G4" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J9" pin="1" pinfunction="P1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
@@ -2306,7 +2282,7 @@
       <node ref="U1" pin="13" pinfunction="CE" pintype="bidirectional"/>
       <node ref="U1" pin="27" pinfunction="GND" pintype="bidirectional"/>
     </net>
-    <net code="17" name="GND1">
+    <net code="18" name="GND1">
       <node ref="B1" pin="4" pinfunction="-" pintype="passive"/>
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
@@ -2325,173 +2301,168 @@
       <node ref="U3" pin="33" pinfunction="PWRPD" pintype="power_in"/>
       <node ref="U3" pin="9" pinfunction="VSS" pintype="power_in"/>
     </net>
-    <net code="18" name="Net-(B1A--)">
+    <net code="19" name="Net-(B1A--)">
       <node ref="B1" pin="2" pinfunction="-" pintype="passive"/>
       <node ref="B1" pin="3" pinfunction="+" pintype="passive"/>
       <node ref="R33" pin="1" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(C12-Pad2)">
+    <net code="20" name="Net-(C12-Pad2)">
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(C14-Pad1)">
+    <net code="21" name="Net-(C14-Pad1)">
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C15" pin="2" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(D1-A)">
+    <net code="22" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="20" pinfunction="LEDCNTLA" pintype="output"/>
     </net>
-    <net code="22" name="Net-(D1-K)">
+    <net code="23" name="Net-(D1-K)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="21" pinfunction="LEDCNTLB" pintype="output"/>
     </net>
-    <net code="23" name="Net-(D3-A)">
+    <net code="24" name="Net-(D3-A)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(D3-K)">
+    <net code="25" name="Net-(D3-K)">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="STAT" pintype="bidirectional"/>
     </net>
-    <net code="25" name="Net-(D5-K)">
+    <net code="26" name="Net-(D5-K)">
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U3" pin="22" pinfunction="LEDCNTLC" pintype="output"/>
     </net>
-    <net code="26" name="Net-(J1-CC1)">
+    <net code="27" name="Net-(J1-CC1)">
       <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
-      <node ref="J5" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(J1-CC2)">
+    <net code="28" name="Net-(J1-CC2)">
       <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
-      <node ref="J5" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(J12-Pad3)">
+    <net code="29" name="Net-(J12-Pad3)">
       <node ref="J12" pin="3" pintype="input"/>
       <node ref="J12" pin="4" pintype="input"/>
     </net>
-    <net code="29" name="Net-(J12-Pad7)">
+    <net code="30" name="Net-(J12-Pad7)">
       <node ref="J12" pin="7" pintype="input"/>
       <node ref="J12" pin="8" pintype="input"/>
     </net>
-    <net code="30" name="Net-(Q1-G)">
+    <net code="31" name="Net-(Q1-G)">
       <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
       <node ref="U1" pin="24" pinfunction="SDRV" pintype="bidirectional"/>
     </net>
-    <net code="31" name="Net-(Q2-D)">
+    <net code="32" name="Net-(Q2-D)">
       <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R17" pin="2" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(Q2-G)">
+    <net code="33" name="Net-(Q2-G)">
       <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
     </net>
-    <net code="33" name="Net-(Q3-G)">
+    <net code="34" name="Net-(Q3-G)">
       <node ref="Q3" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="R28" pin="2" pintype="passive"/>
     </net>
-    <net code="34" name="Net-(Q5-G)">
+    <net code="35" name="Net-(Q5-G)">
       <node ref="Q5" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="R27" pin="1" pintype="passive"/>
     </net>
-    <net code="35" name="Net-(U1-BATP)">
+    <net code="36" name="Net-(U1-BATP)">
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U1" pin="18" pinfunction="BATP" pintype="bidirectional"/>
     </net>
-    <net code="36" name="Net-(U1-BTST1)">
+    <net code="37" name="Net-(U1-BTST1)">
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="BTST1" pintype="bidirectional"/>
     </net>
-    <net code="37" name="Net-(U1-BTST2)">
+    <net code="38" name="Net-(U1-BTST2)">
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="U1" pin="19" pinfunction="BTST2" pintype="bidirectional"/>
     </net>
-    <net code="38" name="Net-(U1-ILIM_HIZ)">
+    <net code="39" name="Net-(U1-ILIM_HIZ)">
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U1" pin="17" pinfunction="ILIM_HIZ" pintype="bidirectional"/>
     </net>
-    <net code="39" name="Net-(U1-INT)">
+    <net code="40" name="Net-(U1-INT)">
       <node ref="J6" pin="1" pintype="input"/>
       <node ref="J6" pin="2" pintype="input"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="U1" pin="21" pinfunction="INT" pintype="bidirectional"/>
     </net>
-    <net code="40" name="Net-(U1-PROG)">
+    <net code="41" name="Net-(U1-PMID)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="PMID" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="Net-(U1-PROG)">
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U1" pin="20" pinfunction="PROG" pintype="bidirectional"/>
     </net>
-    <net code="41" name="Net-(U1-SW1)">
+    <net code="43" name="Net-(U1-SW1)">
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
       <node ref="U1" pin="28" pinfunction="SW1" pintype="bidirectional"/>
     </net>
-    <net code="42" name="Net-(U1-SW2)">
+    <net code="44" name="Net-(U1-SW2)">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="L1" pin="1" pintype="passive"/>
       <node ref="U1" pin="26" pinfunction="SW2" pintype="bidirectional"/>
     </net>
-    <net code="43" name="Net-(U1-TS)">
+    <net code="45" name="Net-(U1-TS)">
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="TH3" pin="1" pintype="passive"/>
       <node ref="U1" pin="16" pinfunction="TS" pintype="bidirectional"/>
     </net>
-    <net code="44" name="Net-(U1-nQON)">
+    <net code="46" name="Net-(U1-nQON)">
       <node ref="J7" pin="1" pintype="input"/>
       <node ref="J7" pin="2" pintype="input"/>
       <node ref="U1" pin="12" pinfunction="nQON" pintype="bidirectional"/>
     </net>
-    <net code="45" name="Net-(U3-BTP_INT)">
+    <net code="47" name="Net-(U3-BTP_INT)">
       <node ref="J10" pin="1" pintype="input"/>
       <node ref="J10" pin="2" pintype="input"/>
       <node ref="U3" pin="15" pinfunction="BTP_INT" pintype="output"/>
     </net>
-    <net code="46" name="Net-(U3-CHG)">
+    <net code="48" name="Net-(U3-CHG)">
       <node ref="R28" pin="1" pintype="passive"/>
       <node ref="U3" pin="31" pinfunction="CHG" pintype="output"/>
     </net>
-    <net code="47" name="Net-(U3-DSG)">
+    <net code="49" name="Net-(U3-DSG)">
       <node ref="R27" pin="2" pintype="passive"/>
       <node ref="U3" pin="28" pinfunction="DSG" pintype="output"/>
     </net>
-    <net code="48" name="Net-(U3-PACK)">
+    <net code="50" name="Net-(U3-PACK)">
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="U3" pin="27" pinfunction="PACK" pintype="bidirectional"/>
     </net>
-    <net code="49" name="Net-(U3-PBI)">
+    <net code="51" name="Net-(U3-PBI)">
       <node ref="C16" pin="2" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="PBI" pintype="power_in"/>
     </net>
-    <net code="50" name="Net-(U3-PCHG)">
+    <net code="52" name="Net-(U3-PCHG)">
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="U3" pin="30" pinfunction="PCHG" pintype="output"/>
     </net>
-    <net code="51" name="Net-(U3-PTC)">
+    <net code="53" name="Net-(U3-PTC)">
       <node ref="TH4" pin="1" pintype="passive"/>
       <node ref="U3" pin="23" pinfunction="PTC" pintype="bidirectional"/>
-    </net>
-    <net code="52" name="Net-(U3-SRN)">
-      <node ref="C21" pin="2" pintype="passive"/>
-      <node ref="R36" pin="2" pintype="passive"/>
-      <node ref="U3" pin="6" pinfunction="SRN" pintype="input"/>
-    </net>
-    <net code="53" name="Net-(U3-SRP)">
-      <node ref="C21" pin="1" pintype="passive"/>
-      <node ref="R34" pin="2" pintype="passive"/>
-      <node ref="U3" pin="8" pinfunction="SRP" pintype="input"/>
     </net>
     <net code="54" name="Net-(U3-TS1)">
       <node ref="TH1" pin="2" pintype="passive"/>
@@ -2535,8 +2506,6 @@
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="J1" pin="A4/B9" pinfunction="VBUS" pintype="passive"/>
       <node ref="J1" pin="B4/A9" pinfunction="VBUS" pintype="passive"/>
-      <node ref="J5" pin="A4/B9" pinfunction="VBUS" pintype="passive"/>
-      <node ref="J5" pin="B4/A9" pinfunction="VBUS" pintype="passive"/>
       <node ref="J8" pin="1" pinfunction="P1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VBUS" pintype="bidirectional"/>
       <node ref="U1" pin="3" pinfunction="VBUS" pintype="bidirectional"/>
@@ -2549,19 +2518,13 @@
     <net code="63" name="unconnected-(J1-SBU2-PadB8)">
       <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="64" name="unconnected-(J5-SBU1-PadA8)">
-      <node ref="J5" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="65" name="unconnected-(J5-SBU2-PadB8)">
-      <node ref="J5" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="66" name="unconnected-(U3-NC-Pad7)">
+    <net code="64" name="unconnected-(U3-NC-Pad7)">
       <node ref="U3" pin="7" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="67" name="unconnected-(U3-NC-Pad14)">
+    <net code="65" name="unconnected-(U3-NC-Pad14)">
       <node ref="U3" pin="14" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="68" name="unconnected-(U3-NC-Pad29)">
+    <net code="66" name="unconnected-(U3-NC-Pad29)">
       <node ref="U3" pin="29" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
