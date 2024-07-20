@@ -1,36 +1,57 @@
-# MODUL01 - Template to create a new MLAB module
+# LION2CELL02 - Dual-cell Li-Ion BMS with I2C interface and USB-C charging.
 
-MLAB's module template repository. Please [use the "Use this template" button](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) to create a new MLAB module from this repository.
+The LION2CELL02 module is designed for managing the charging and protection of 2-cell Li-Ion battery stack. It incorporates advanced features for safe and efficient battery management, utilizing the BQ40Z50-R2 fuel gauge and BQ25792 battery charger ICs.
 
-The new module repository name must be identical to the proposed new module name. Please look in [MLAB design rules](https://wiki.mlab.cz/doku.php?id=en:rules#identification_of_modules) for an acceptable naming convention.
-After creating the new repository, [rename](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch) the default git branch to be named corresponding to the revision of the module. It is generally adding the "A" suffix to the module name. Therefore, a new repository named MODULENAME01 should have the branch name MODULENAME01A. 
+## Features
 
-Then [clone the new MLAB's module repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your workstation. After that perform the following steps in the cloned repository. 
+### BQ40Z50-R2 - Fuel Gauge
+- Utilizes Impedance Track™ technology for accurate charge measurement.
+- High-side protection N-FETs control.
+- Integrated cell balancing during charging or at rest.
+- Programmable protection features (voltage, current, temperature, charge timeout).
+- JEITA, enhanced charging, and adaptive charging algorithms.
+- Supports TURBO Mode 2.0 and Battery Trip Point (BTP).
+- LED display for battery status.
+- SMBus v1.1 interface for communication with the charger and host systems.
 
-## 1. Initialize the assets submodule, and update it to the latest version
-```bash
-git submodule update --init --remote
-```
+### BQ25792 Battery Charger
+- Supports USB BC 1.2 charging standard.
+- High-efficiency buck-boost charging for Li-Ion batteries.
+- Programmable input current, charge current, and charge voltage.
+- Integrated power path management.
+- Protection features including overvoltage, undervoltage, overcurrent, and thermal protection.
+- Low quiescent current for extended battery life.
 
-## 2. Start the design work 
+## USB-C Connectivity
 
-At that point, you should start to design the new MLAB module project by using the [design tools](https://wiki.mlab.cz/doku.php?id=en:tools).
+The LION2CELL02 module includes dual USB-C connectors for pass-through connection. This allows for easy integration with USB-C power sources and downstream devices.
 
-## 3. Copy the fresh automation workflows
-    
-The following command copies up-to-date KiCAD automation workflow to the new MLAB module repository.
-```bash
-cd doc/assets/workflows/
-./copy_workflow_to_repo.sh
-```
+## Power Delivery
 
+The module supports BC 1.2 for standard charging. For USB Power Delivery (PD) support, an external USB PD controller is required. The MLAB [USBPDSINK01](https://www.mlab.cz/module/USBPDSINK01/) module can be used to enable PD functionality.
 
-## 4. Replace this readme
+## Usage Instructions
 
-This readme should be replaced by a description of your new module project! :)
-Please look to the README.md in the root of other modules to get inspiration. 
+1. Equip the LION2CELL02 module with pair of your 16850 Li-Ion batteries.
+2. Connect a USB-C power source to the module. For standard charging, ensure the power source complies with BC 1.2.
+3. For USB PD, connect the USBPDSINK01 module to enable PD negotiation and charging.
+4. Monitor the LED indicators for battery status and health.
 
-Thanks for contributing! 
+## Safety and Protection
 
+- The module includes multiple layers of protection for voltage, current, and temperature to ensure safe operation.
+- Integrated cell balancing ensures equal charging across all cells, preventing overcharge and extending battery life.
 
-    
+## Applications
+
+- UPS/battery backup systems
+- Stand-alone measurement devices
+- Scientific equipment
+
+## Additional Resources
+
+For further information, refer to the datasheets:
+- [BQ40Z50-R2 Datasheet](https://www.ti.com/product/BQ40Z50-R2)
+- [BQ25792 Datasheet](https://www.ti.com/product/BQ25792)
+
+---

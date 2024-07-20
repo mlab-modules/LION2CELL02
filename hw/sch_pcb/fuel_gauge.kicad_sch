@@ -4703,17 +4703,6 @@
 		)
 		(uuid "4a18d01c-3e4b-4035-9ae3-ca3fa9db7555")
 	)
-	(label "PS+"
-		(at 95.25 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a438b0ea-d5e8-4e5d-ad16-bb7e4be016e7")
-	)
 	(label "BAT"
 		(at 163.83 93.98 180)
 		(fields_autoplaced yes)
@@ -4735,17 +4724,6 @@
 			(justify left bottom)
 		)
 		(uuid "eabe4126-5f44-4b93-996c-95d61a4ee94e")
-	)
-	(label "PS-"
-		(at 95.25 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4b38580-a07c-4d37-95e4-101e36ca37c3")
 	)
 	(hierarchical_label "PACK+"
 		(shape bidirectional)
