@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/LION2CELL02.kicad_sch</source>
-    <date>2024-07-21T00:02:35+0000</date>
+    <date>2024-07-21T10:25:14+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2082,53 +2082,58 @@
       <node ref="U3" pin="24" pinfunction="PTCEN" pintype="input"/>
       <node ref="U3" pin="32" pinfunction="BAT" pintype="power_in"/>
     </net>
-    <net code="4" name="/Fuel Gauge/PACK+">
+    <net code="4" name="/Fuel Gauge/BAT_MID">
+      <node ref="B1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="B1" pin="3" pinfunction="+" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/Fuel Gauge/PACK+">
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q5" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="R24" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="5" name="/Fuel Gauge/SCL">
+    <net code="6" name="/Fuel Gauge/SCL">
       <node ref="J12" pin="3" pintype="input"/>
       <node ref="J12" pin="4" pintype="input"/>
       <node ref="U1" pin="14" pinfunction="SCL" pintype="bidirectional"/>
       <node ref="U3" pin="19" pinfunction="SMBC" pintype="open_collector"/>
     </net>
-    <net code="6" name="/Fuel Gauge/SDA">
+    <net code="7" name="/Fuel Gauge/SDA">
       <node ref="J12" pin="7" pintype="input"/>
       <node ref="J12" pin="8" pintype="input"/>
       <node ref="U1" pin="15" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="U3" pin="18" pinfunction="SMBD" pintype="open_collector"/>
     </net>
-    <net code="7" name="/Fuel Gauge/SR+">
+    <net code="8" name="/Fuel Gauge/SR+">
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="R34" pin="2" pintype="passive"/>
       <node ref="U3" pin="8" pinfunction="SRP" pintype="input"/>
     </net>
-    <net code="8" name="/Fuel Gauge/SR-">
+    <net code="9" name="/Fuel Gauge/SR-">
       <node ref="C21" pin="2" pintype="passive"/>
       <node ref="R36" pin="2" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="SRN" pintype="input"/>
     </net>
-    <net code="9" name="/Fuel Gauge/VCOM">
+    <net code="10" name="/Fuel Gauge/VCOM">
       <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
     </net>
-    <net code="10" name="/Power Input/D+">
+    <net code="11" name="/Power Input/D+">
       <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="U1" pin="6" pinfunction="D+" pintype="bidirectional"/>
     </net>
-    <net code="11" name="/Power Input/D-">
+    <net code="12" name="/Power Input/D-">
       <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="U1" pin="7" pinfunction="D-" pintype="bidirectional"/>
     </net>
-    <net code="12" name="/Power Input/Power_load">
+    <net code="13" name="/Power Input/Power_load">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="P1" pintype="passive"/>
@@ -2136,14 +2141,14 @@
       <node ref="U1" pin="22" pinfunction="BAT" pintype="bidirectional"/>
       <node ref="U1" pin="23" pinfunction="BAT" pintype="bidirectional"/>
     </net>
-    <net code="13" name="/Power Input/REGN">
+    <net code="14" name="/Power Input/REGN">
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="REGN" pintype="bidirectional"/>
     </net>
-    <net code="14" name="/Power Input/System_load">
+    <net code="15" name="/Power Input/System_load">
       <node ref="C30" pin="1" pintype="passive"/>
       <node ref="C31" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
@@ -2156,7 +2161,7 @@
       <node ref="J4" pin="6" pinfunction="5" pintype="passive"/>
       <node ref="U1" pin="25" pinfunction="SYS" pintype="bidirectional"/>
     </net>
-    <net code="15" name="GND">
+    <net code="16" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C19" pin="2" pintype="passive"/>
@@ -2208,7 +2213,7 @@
       <node ref="U1" pin="13" pinfunction="CE" pintype="bidirectional"/>
       <node ref="U1" pin="27" pinfunction="GND" pintype="bidirectional"/>
     </net>
-    <net code="16" name="GND1">
+    <net code="17" name="GND1">
       <node ref="B1" pin="4" pinfunction="-" pintype="passive"/>
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
@@ -2224,11 +2229,6 @@
       <node ref="U3" pin="25" pinfunction="FUSE" pintype="output"/>
       <node ref="U3" pin="33" pinfunction="PWRPD" pintype="power_in"/>
       <node ref="U3" pin="9" pinfunction="VSS" pintype="power_in"/>
-    </net>
-    <net code="17" name="Net-(B1A--)">
-      <node ref="B1" pin="2" pinfunction="-" pintype="passive"/>
-      <node ref="B1" pin="3" pinfunction="+" pintype="passive"/>
-      <node ref="R33" pin="1" pintype="passive"/>
     </net>
     <net code="18" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
