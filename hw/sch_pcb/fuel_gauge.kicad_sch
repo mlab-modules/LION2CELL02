@@ -4571,6 +4571,17 @@
 		)
 		(uuid "cbc87934-0136-4427-a127-f39774316943")
 	)
+	(label "BAT_MID"
+		(at 63.5 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbf4bfc3-1ccc-45d0-a2d0-c85a329caf55")
+	)
 	(label "VCOM"
 		(at 125.73 66.04 0)
 		(fields_autoplaced yes)
@@ -4617,6 +4628,29 @@
 			(justify left)
 		)
 		(uuid "d651240d-5985-4d9e-bdf8-5fba6ba9242e")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 66.04 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "f601a2f2-c5e1-4793-8781-57454e446a37")
+		(property "Netclass" "BAT_MID"
+			(at 67.0052 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS_SGD")
@@ -5782,10 +5816,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55f69f1a-2e41-435c-bddc-1e2473799016")
 		(property "Reference" "B1"
-			(at 65.151 116.5133 0)
+			(at 53.34 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +5827,7 @@
 			)
 		)
 		(property "Value" "18650"
-			(at 65.151 119.0502 0)
+			(at 52.07 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,10 +6338,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7e043ed4-30dd-4cb1-b0e3-0a97ca7de6ad")
 		(property "Reference" "B1"
-			(at 65.151 106.3533 0)
+			(at 53.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +6349,7 @@
 			)
 		)
 		(property "Value" "18650"
-			(at 65.151 108.8902 0)
+			(at 52.07 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
