@@ -499,6 +499,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.4,
+        "line_style": 0,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.2,
+        "name": "HIGH_I",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.4,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -520,7 +537,10 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/Fuel Gauge/BAT_MID": "BAT_MID"
+      "/Fuel Gauge/B+": "HIGH_I",
+      "/Fuel Gauge/BAT_MID": "BAT_MID",
+      "/Fuel Gauge/PACK+": "HIGH_I",
+      "/Fuel Gauge/VCOM": "HIGH_I"
     },
     "netclass_patterns": [
       {
