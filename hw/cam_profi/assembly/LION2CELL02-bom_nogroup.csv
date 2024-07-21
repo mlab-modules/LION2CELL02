@@ -15,7 +15,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 14,,JUMP_4X2,J4,JUMP_4X2,Straight_2x04,1,,,,,,
 15,USB 2.0-only Type-C Receptacle connector,USBC_USB4105-GF-A,J1,USBC_USB4105-GF-A,USBC GCT_USB4105-GF-A,1,,5fa0f94612875025b397795e,USB4105-GF-A,USB4105-GF-A,,
 16,"Inductor, small symbol",L_Small,L1,1uH,L_1008_2520Metric,1,~,,,,,
-17,"-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23",AO3401A,Q2,AO3401A,SOT-23,1,http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf,,,,C15127,
+17,"-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23",AO3401A,Q2,AP2305AGN-HF-3,SOT-23,1,https://www.tme.eu/Document/fc64476bcfec1f3af35a324c08c5f351/AP2305AGN-3.pdf,5c70984712875079b91f8af1,,,,
 18,"N-MOSFET transistor, source/gate/drain",Q_NMOS_SGD,Q1Q3Q5,DMT31M7LPS,D_POWERDI5060-8_6.0x5.1mm_P1.27mm,3,https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf,669990696fdfe6f54e2eb28a,,,,DMT31M7LPS-13
 19,"Resistor, small symbol",R_Small,R35,2mR,R_2512_6332Metric,1,https://www.tme.eu/Document/9eb17c5caf6d68fb7c80b751e0adae3a/LR12.pdf,669ba41c6fdfe6f54e2eb51d,,,,
 20,"Resistor, small symbol",R_Small,R8R20R32R33R34R36,100,R_0805_2012Metric,6,~,,,,C17408 C25076,

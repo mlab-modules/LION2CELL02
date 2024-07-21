@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/LION2CELL02.kicad_sch</source>
-    <date>2024-07-21T14:58:02+0000</date>
+    <date>2024-07-21T16:54:03+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -473,17 +473,17 @@
       <tstamps>4b865073-a841-4e3e-93fa-a6bc92074508</tstamps>
     </comp>
     <comp ref="Q2">
-      <value>AO3401A</value>
+      <value>AP2305AGN-HF-3</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <datasheet>https://www.tme.eu/Document/fc64476bcfec1f3af35a324c08c5f351/AP2305AGN-3.pdf</datasheet>
       <fields>
-        <field name="LCSC">C15127</field>
+        <field name="UST_ID">5c70984712875079b91f8af1</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+        <field name="Datasheet">https://www.tme.eu/Document/fc64476bcfec1f3af35a324c08c5f351/AP2305AGN-3.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="LCSC" value="C15127"/>
+      <property name="UST_ID" value="5c70984712875079b91f8af1"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="P-Channel MOSFET"/>
