@@ -65,7 +65,7 @@ Eurocircuits class: 6F
 Components count: (SMD/THT)
 
 - Top: 2/17 (SMD + THT)
-- Bottom: 69/0 (SMD)
+- Bottom: 89/0 (SMD)
 
 Defined tracks:
 
@@ -98,7 +98,7 @@ Used vias:
 
 Holes (excluding vias):
 
-- 0.2 mm (8 mils) (1)
+- 0.2 mm (8 mils) (7)
 - 0.65 mm (26 mils) (2)
 - 0.89 mm (35 mils) (26)
 - 1.0 mm (39 mils) (8)
@@ -114,7 +114,7 @@ Oval holes:
 
 Drill tools (including vias and computing adjusts and rounding):
 
-- 0.3 mm (12 mils) (2)
+- 0.3 mm (12 mils) (8)
 - 0.5 mm (20 mils) (71)
 - 0.65 mm (26 mils) (2)
 - 0.7 mm (28 mils) (4)
@@ -135,8 +135,8 @@ The stencil thickness is  0.12 mm.
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
 | Top    |               4 |       5.51 |      0.03 |
-| Bottom |             214 |     257.19 |      1.28 |
-| Total  |             218 |     262.70 |      1.31 |
+| Bottom |             265 |     382.36 |      1.90 |
+| Total  |             269 |     387.86 |      1.93 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 
