@@ -1059,6 +1059,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 38.1) (xy 241.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7373c0b7-b270-4146-8a92-f5fecd309db7")
+	)
+	(wire
+		(pts
+			(xy 233.68 33.02) (xy 241.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b0849a-be5f-4786-b0b6-c275e46cb7e7")
+	)
+	(wire
+		(pts
 			(xy 252.73 96.52) (xy 252.73 104.14)
 		)
 		(stroke
@@ -1201,6 +1221,30 @@
 			(justify right)
 		)
 		(uuid "30359057-93d4-4215-b32a-5b82c51efa9a")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 233.68 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "31c6dd6a-36d7-4dad-bf9e-20a35ceb5881")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 233.68 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "8bc58dbd-f9f5-4b16-bef4-069dacb21cc1")
 	)
 	(hierarchical_label "Power_load"
 		(shape input)

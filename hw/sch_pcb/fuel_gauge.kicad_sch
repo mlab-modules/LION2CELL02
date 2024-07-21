@@ -1427,30 +1427,31 @@
 				)
 			)
 		)
-		(symbol "MLAB_SW:SW_Push_shield"
+		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW2"
-				(at 0 7.62 0)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SKRTLAE010"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Mlab_SW:SKRT"
+			(property "Footprint" ""
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -1486,7 +1487,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_shield_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -1562,26 +1563,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_Push_shield_1_1"
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3052,12 +3033,6 @@
 		(uuid "3bf430e1-ca6d-44b7-b0ea-ab311213b6cf")
 	)
 	(junction
-		(at 135.89 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3dd8ca35-d75d-47c7-9558-3cbc5c80a609")
-	)
-	(junction
 		(at 119.38 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3068,6 +3043,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "476d2b43-ba42-46cf-a048-f64fb00eac95")
+	)
+	(junction
+		(at 135.89 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49cbdcc7-66fb-4eb1-a1a4-d73ece7a1194")
 	)
 	(junction
 		(at 138.43 74.93)
@@ -3086,12 +3067,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56bb0a3a-a76a-49ce-8249-ab6e469c8b70")
-	)
-	(junction
-		(at 161.29 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bc52a0f-9158-45d2-9a07-942c15f3bf86")
 	)
 	(junction
 		(at 127 49.53)
@@ -3118,12 +3093,6 @@
 		(uuid "5ffd0bf2-8c01-4cbe-8c6e-351168f54281")
 	)
 	(junction
-		(at 106.68 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "634fc396-1014-4f89-a37f-2dc6f17529fb")
-	)
-	(junction
 		(at 186.69 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3140,12 +3109,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8257f8b5-df21-43f4-aa7b-c3cd264a9999")
-	)
-	(junction
-		(at 172.72 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9526f55f-7f2f-4a69-980a-4eb694125e13")
 	)
 	(junction
 		(at 109.22 134.62)
@@ -3194,12 +3157,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfa23140-c711-4fec-b97d-6757e580fcca")
-	)
-	(junction
-		(at 135.89 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4dcb395-89cd-4b50-a743-687baad36068")
 	)
 	(junction
 		(at 62.23 104.14)
@@ -3371,16 +3328,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 49.53) (xy 106.68 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ced07dd-4de3-4c2a-9eda-fff42f1f3ac6")
-	)
-	(wire
-		(pts
 			(xy 74.93 129.54) (xy 74.93 128.27)
 		)
 		(stroke
@@ -3471,16 +3418,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 40.64) (xy 130.81 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f338baf-bdad-4b84-941a-b3f2f9dac4df")
-	)
-	(wire
-		(pts
 			(xy 119.38 64.77) (xy 119.38 77.47)
 		)
 		(stroke
@@ -3561,17 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 40.64) (xy 144.78 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4141b2b8-ebd0-4ab2-aa83-8276669e1bae")
-	)
-	(wire
-		(pts
-			(xy 153.67 66.04) (xy 161.29 66.04)
+			(xy 153.67 66.04) (xy 168.91 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3668,16 +3595,6 @@
 			(type default)
 		)
 		(uuid "4d9a4d07-7a83-4771-9926-3383c04f90b4")
-	)
-	(wire
-		(pts
-			(xy 161.29 66.04) (xy 168.91 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52708d56-5ccb-4c37-81dd-3f41bb13c6af")
 	)
 	(wire
 		(pts
@@ -3858,26 +3775,6 @@
 			(type default)
 		)
 		(uuid "7027236a-b836-49ee-9cc3-76eb9f752802")
-	)
-	(wire
-		(pts
-			(xy 161.29 66.04) (xy 161.29 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7054dabe-72c3-4907-b613-053b1dbd6af8")
-	)
-	(wire
-		(pts
-			(xy 135.89 40.64) (xy 144.78 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72254698-f65f-467f-816c-708a5a17e60a")
 	)
 	(wire
 		(pts
@@ -4401,16 +4298,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 135.89) (xy 172.72 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d821ae94-3111-41b9-ad83-0d813dd1f08b")
-	)
-	(wire
-		(pts
 			(xy 207.01 127) (xy 195.58 127)
 		)
 		(stroke
@@ -4418,16 +4305,6 @@
 			(type default)
 		)
 		(uuid "d90ff03a-5aa8-45ec-a56b-8a74d403e229")
-	)
-	(wire
-		(pts
-			(xy 161.29 80.01) (xy 161.29 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd8d00a4-98a1-46fd-908e-5678d66cc276")
 	)
 	(wire
 		(pts
@@ -4481,16 +4358,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 40.64) (xy 118.11 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e229e339-d147-473b-86c0-eef97d807fbf")
-	)
-	(wire
-		(pts
 			(xy 92.71 96.52) (xy 91.44 96.52)
 		)
 		(stroke
@@ -4538,16 +4405,6 @@
 			(type default)
 		)
 		(uuid "e85b7762-721b-4710-a909-ac600c651272")
-	)
-	(wire
-		(pts
-			(xy 133.35 144.78) (xy 135.89 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb604fd3-26dc-4fbe-bede-eb85335c0656")
 	)
 	(wire
 		(pts
@@ -4618,16 +4475,6 @@
 			(type default)
 		)
 		(uuid "f440dc36-1e80-4eaf-86d9-0d927c2c6212")
-	)
-	(wire
-		(pts
-			(xy 161.29 73.66) (xy 161.29 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5a32cd2-0eca-4691-a1a0-79bb1aec446a")
 	)
 	(wire
 		(pts
@@ -4702,28 +4549,6 @@
 		)
 		(uuid "0efb2704-e700-4f3b-baa3-b45ba78403ce")
 	)
-	(label "SDA"
-		(at 148.59 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46654f07-7843-4a32-9905-80b66702640f")
-	)
-	(label "SCL"
-		(at 148.59 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a18d01c-3e4b-4035-9ae3-ca3fa9db7555")
-	)
 	(label "SR+"
 		(at 74.93 128.27 0)
 		(fields_autoplaced yes)
@@ -4768,6 +4593,30 @@
 			(justify left)
 		)
 		(uuid "3968bf56-af04-4b76-bde7-c2c8994bbf78")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 148.59 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "42281983-f80a-4a9e-97a8-62a83f06e090")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 148.59 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "d651240d-5985-4d9e-bdf8-5fba6ba9242e")
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS_SGD")
@@ -5161,83 +5010,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 120.65 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fee56cb-f6fd-4020-980f-d4aaba617bb7")
-		(property "Reference" "C12"
-			(at 120.6563 34.9334 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 120.6563 37.3577 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 120.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 120.65 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20a5c533-b7a1-462d-a63a-df2e02331527")
-		)
-		(pin "2"
-			(uuid "f7314297-cc3b-4edf-b4dc-02be6ed9c779")
-		)
-		(instances
-			(project "LION2CELL02"
-				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 68.58 128.27 90)
 		(unit 1)
@@ -5388,85 +5160,6 @@
 			(project "LION2CELL02"
 				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 161.29 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "234255b8-985a-4156-8794-96a5a7c1442b")
-		(property "Reference" "C14"
-			(at 163.6141 69.9014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 163.6141 72.3257 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 161.29 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 161.29 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22103f50-1c59-4070-abb4-0116cd78fc6d")
-		)
-		(pin "2"
-			(uuid "59ab3c28-7b27-4873-9d65-9697e2f1b737")
-		)
-		(instances
-			(project "LION2CELL02"
-				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5778,6 +5471,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 135.89 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a110a69-eb0f-4077-a590-994140dc503c")
+		(property "Reference" "SW1"
+			(at 139.573 138.4878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 139.573 140.9121 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mlab_SW:SW_PUSH_SMALL"
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 135.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
+			(at 135.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5833f25-92b8-491b-b4ba-c208b356ff4e")
+		)
+		(pin "1"
+			(uuid "aaaf2578-3d7b-4a41-a56d-434c52d141cf")
+		)
+		(instances
+			(project "LION2CELL02"
+				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MLAB_HEADER:HEADER_1x02")
 		(at 152.4 128.27 90)
 		(unit 1)
@@ -5997,167 +5769,6 @@
 			(project "LION2CELL02"
 				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
 					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MLAB_SW:SW_Push_shield")
-		(at 135.89 139.7 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5274d3ac-2dd5-4eb6-87fb-b71ce697e368")
-		(property "Reference" "SW1"
-			(at 139.573 138.4878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SKRTLAE010"
-			(at 139.573 140.9121 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Mlab_SW:SKRT"
-			(at 140.97 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 135.89 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_ID" ""
-			(at 135.89 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "GND"
-			(uuid "53440bca-ce04-41d1-badf-fc61b2c8b302")
-		)
-		(pin "2"
-			(uuid "91379dd0-981f-4245-9d82-e1787cc82464")
-		)
-		(pin "1"
-			(uuid "c2b390d2-ba9b-4335-8212-c7482c91bb6a")
-		)
-		(instances
-			(project ""
-				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 161.29 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53f5902f-8d23-406b-825e-954f882e675b")
-		(property "Reference" "C15"
-			(at 163.6141 76.2514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 163.6141 78.6757 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 161.29 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 161.29 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf758530-3954-48b8-ac38-ac0c024d15fc")
-		)
-		(pin "2"
-			(uuid "f82a8d2a-bdc9-4945-b895-04e12c60953f")
-		)
-		(instances
-			(project "LION2CELL02"
-				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6611,6 +6222,76 @@
 			(project "LION2CELL02"
 				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 172.72 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "763475ae-ebe6-4671-bb0e-6b747a3e92ed")
+		(property "Reference" "SW2"
+			(at 176.403 129.5978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 176.403 132.0221 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mlab_SW:SW_PUSH_SMALL"
+			(at 177.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1116216f-5da7-4ba7-ae48-e359766bdf98")
+		)
+		(pin "1"
+			(uuid "32f31942-d6d5-477d-8fab-493806b560d8")
+		)
+		(instances
+			(project ""
+				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7080,88 +6761,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MLAB_SW:SW_Push_shield")
-		(at 172.72 130.81 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97efb392-a004-49b2-b507-b987314a0ce0")
-		(property "Reference" "SW2"
-			(at 176.403 129.5978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SKRTLAE010"
-			(at 176.403 132.0221 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Mlab_SW:SKRT"
-			(at 177.8 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 172.72 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_ID" ""
-			(at 172.72 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "GND"
-			(uuid "b541df7f-b132-4cab-98ed-7d35dec9c58f")
-		)
-		(pin "2"
-			(uuid "90c92cc2-6ff3-4c8d-a302-a7d1210380e1")
-		)
-		(pin "1"
-			(uuid "59cde064-0094-4087-b135-c6645de7b70f")
-		)
-		(instances
-			(project "LION2CELL02"
-				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 172.72 137.16 0)
 		(unit 1)
@@ -7222,83 +6821,6 @@
 			(project "LION2CELL02"
 				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 133.35 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0613a3b-c89c-4e25-906f-fb9468a83949")
-		(property "Reference" "C13"
-			(at 133.3563 34.9334 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 133.3563 37.3577 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 133.35 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 133.35 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86dc1ed4-f441-4b32-aea7-356959436b9d")
-		)
-		(pin "2"
-			(uuid "3533b826-d40d-40b9-894c-0aac90342181")
-		)
-		(instances
-			(project "LION2CELL02"
-				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7747,71 +7269,6 @@
 			(project ""
 				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 161.29 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7a0ec87-7113-4dda-a9a8-83fe23f2fb6e")
-		(property "Reference" "#PWR023"
-			(at 161.29 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.29 86.9934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b0f4951-9eca-4b18-a804-6f3c84bbdbbb")
-		)
-		(instances
-			(project "LION2CELL02"
-				(path "/cf3ec207-cc3b-4c92-9c2d-71c8a9dee6d9/ff769b56-ac69-4554-8831-ccbbcdb6fdfa"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8739,7 +8196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 96.52 80.645 0)
 			(effects
 				(font
@@ -8766,7 +8223,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2128"
+		(property "LCSC" ""
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984512875079b91f88c5"
 			(at 96.52 85.09 0)
 			(effects
 				(font
