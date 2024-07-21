@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.3+1"
     },
-    "CreationDate": "2024-07-20T17:55:20+00:00"
+    "CreationDate": "2024-07-21T00:01:47+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -27,8 +27,9 @@
       "PadToPad": 0.001,
       "PadToTrack": 0.001,
       "TrackToTrack": 0.2,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
@@ -68,11 +69,6 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LION2CELL02-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "LION2CELL02-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
@@ -82,10 +78,6 @@
     {
       "Type": "Legend",
       "Name": "Top Silk Screen"
-    },
-    {
-      "Type": "SolderPaste",
-      "Name": "Top Solder Paste"
     },
     {
       "Type": "SolderMask",
