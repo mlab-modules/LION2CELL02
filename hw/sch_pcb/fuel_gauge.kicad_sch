@@ -7519,7 +7519,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cf2b08c7-e7e3-40ae-ba11-13fbd399789b")
 		(property "Reference" "Q2"
 			(at 119.38 43.9252 90)
@@ -7529,8 +7528,8 @@
 				)
 			)
 		)
-		(property "Value" "AO3401A"
-			(at 119.38 46.4621 90)
+		(property "Value" "AP2305AGN-HF-3"
+			(at 121.92 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,7 +7547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/fc64476bcfec1f3af35a324c08c5f351/AP2305AGN-3.pdf"
 			(at 119.38 52.07 0)
 			(effects
 				(font
@@ -7567,8 +7566,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15127"
-			(at 119.38 52.07 90)
+		(property "UST_ID" "5c70984712875079b91f8af1"
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
