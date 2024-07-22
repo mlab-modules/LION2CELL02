@@ -4919,6 +4919,52 @@
 		)
 		(uuid "cbc0a042-6095-4833-861b-cca7b2814cfe")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 214.63 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "188704fa-ed15-46eb-89b2-6217e6ed1d64")
+		(property "Netclass" "HIGH_I"
+			(at 215.5952 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 59.69 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3faf2ad-bb97-4cdd-9f20-30b06ee70e57")
+		(property "Netclass" "HIGH_I"
+			(at 60.6552 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 49.53 148.59 0)
@@ -9402,7 +9448,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uH"
+		(property "Value" "2.2uH"
 			(at 161.29 87.63 0)
 			(effects
 				(font
@@ -9411,7 +9457,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2020"
 			(at 167.64 86.36 0)
 			(effects
 				(font
@@ -9430,6 +9476,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "669e8efe6fdfe6f54e2eb7e6"
 			(at 167.64 86.36 0)
 			(effects
 				(font

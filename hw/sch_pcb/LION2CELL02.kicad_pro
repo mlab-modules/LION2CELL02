@@ -475,7 +475,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -540,7 +540,11 @@
       "/Fuel Gauge/B+": "HIGH_I",
       "/Fuel Gauge/BAT_MID": "BAT_MID",
       "/Fuel Gauge/PACK+": "HIGH_I",
-      "/Fuel Gauge/VCOM": "HIGH_I"
+      "/Fuel Gauge/VCOM": "HIGH_I",
+      "/Power Input/System_load": "HIGH_I",
+      "Net-(D2-K)": "HIGH_I",
+      "VBUS": "HIGH_I",
+      "buck_out": "HIGH_I"
     },
     "netclass_patterns": [
       {

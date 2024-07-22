@@ -3266,7 +3266,7 @@
 		)
 		(uuid "cb51a395-3646-4ea5-bcfd-c0e222425ce1")
 	)
-	(text_box "RFBT (feedback top resistor values)\n=======================\nBottom fixed for 10k Ohm\n\n68 kOhm - 5.1V\n44 kOhm - 3.3V"
+	(text_box "RFBT (feedback top resistor values)\n=======================\nBottom value fixed 10k Ohm\n\n68 kOhm - 5.1V\n44 kOhm - 3.3V"
 		(exclude_from_sim no)
 		(at 208.28 123.19 0)
 		(size 54.61 21.59)
@@ -3355,6 +3355,52 @@
 			(justify right)
 		)
 		(uuid "aaf57a10-6247-4634-8fc1-eaaf692aaef9")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 146.05 96.52 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "c036718d-08d7-4a7a-adfc-92289da74740")
+		(property "Netclass" "HIGH_I"
+			(at 148.59 95.5548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 167.64 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "d90e61c4-7287-4cdc-80e3-57b659e89d6d")
+		(property "Netclass" "HIGH_I"
+			(at 168.6052 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "LION2CELL01D-rescue:JUMP_4X2")
@@ -5757,7 +5803,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed2ee80b-c801-4272-b0da-d6aac151efd5")
 		(property "Reference" "R10"
-			(at 194.8181 116.0791 0)
+			(at 194.818 115.6278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5765,8 +5811,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "91k"
-			(at 194.8181 118.3778 0)
+		(property "Value" "44k2"
+			(at 194.818 118.0521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +5847,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5c70984712875079b91f8a95"
+		(property "UST_ID" "669ebdcc6fdfe6f54e2eb869"
 			(at 193.04 116.84 0)
 			(effects
 				(font
