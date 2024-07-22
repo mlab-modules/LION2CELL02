@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/LION2CELL02.kicad_sch</source>
-    <date>2024-07-22T16:09:35+0000</date>
+    <date>2024-07-22T17:16:31+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1505,14 +1505,16 @@
       <tstamps>85b16c69-338f-419f-a928-a02ea57ad1d3</tstamps>
     </comp>
     <comp ref="R9">
-      <value>6.04k</value>
+      <value>8k2</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1742,9 +1744,10 @@
     </comp>
     <comp ref="J5">
       <value>HEADER_2x03_PARALLEL</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
       <description>2x03 2.54 mm pitch header, 2 pins next to each other are connected</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x03</field>
         <field name="Datasheet"/>
         <field name="Description">2x03 2.54 mm pitch header, 2 pins next to each other are connected</field>
       </fields>
@@ -1773,9 +1776,10 @@
     </comp>
     <comp ref="JP1">
       <value>Jumper_2_Open</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <description>Jumper, 2-pole, open</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x01</field>
         <field name="Datasheet"/>
         <field name="Description">Jumper, 2-pole, open</field>
       </fields>
@@ -1789,15 +1793,16 @@
     </comp>
     <comp ref="L2">
       <value>2.2uH</value>
-      <footprint>Inductor_SMD:L_Wuerth_HCI-1050</footprint>
+      <footprint>Inductor_SMD:L_Vishay_IHLP-2020</footprint>
+      <datasheet>https://www.vishay.com/docs/34563/ihlp-2020cz-8a.pdf</datasheet>
       <fields>
-        <field name="UST_ID">6087af42128750769ee59060</field>
-        <field name="Footprint">Inductor_SMD:L_Wuerth_HCI-1050</field>
-        <field name="Datasheet"/>
+        <field name="UST_ID">669e8efe6fdfe6f54e2eb7e6</field>
+        <field name="Footprint">Inductor_SMD:L_Vishay_IHLP-2020</field>
+        <field name="Datasheet">https://www.vishay.com/docs/34563/ihlp-2020cz-8a.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="UST_ID" value="6087af42128750769ee59060"/>
+      <property name="UST_ID" value="669e8efe6fdfe6f54e2eb7e6"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power_output.kicad_sch"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
@@ -1860,14 +1865,17 @@
       <tstamps>d04aae6b-bb74-4db0-a6a9-6c6f08a01bab</tstamps>
     </comp>
     <comp ref="R14">
-      <value>R_Small</value>
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="UST_ID"/>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power_output.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1876,14 +1884,17 @@
       <tstamps>c786bb3a-fe8f-4e24-8b34-69b0d4950745</tstamps>
     </comp>
     <comp ref="R15">
-      <value>R_Small</value>
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="UST_ID"/>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power_output.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
