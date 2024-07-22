@@ -4750,9 +4750,9 @@
 		)
 		(uuid "5c5cfde4-1b2f-4b0e-9a09-63eb0543cb5b")
 	)
-	(text "1.5 MHz, 2S"
+	(text "750 kHz, 2S"
 		(exclude_from_sim no)
-		(at 234.95 113.03 0)
+		(at 238.76 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6104,7 +6104,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.04k"
+		(property "Value" "8k2"
 			(at 228.6 110.49 0)
 			(effects
 				(font
@@ -6132,6 +6132,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 227.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
 			(at 227.33 109.22 0)
 			(effects
 				(font

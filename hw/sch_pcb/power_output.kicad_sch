@@ -3109,6 +3109,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 21.59) (xy 243.84 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d719316e-1dd8-4ddb-848e-ed5547ac018d")
+	)
+	(wire
+		(pts
 			(xy 241.3 30.48) (xy 241.3 40.64)
 		)
 		(stroke
@@ -3442,7 +3452,7 @@
 		(dnp no)
 		(uuid "12ff4c88-d61b-4821-a219-9e8de15e4c4a")
 		(property "Reference" "R15"
-			(at 224.028 20.828 0)
+			(at 222.25 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,7 +3460,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 222.504 23.114 0)
 			(effects
 				(font
@@ -3459,7 +3469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 226.06 29.21 0)
 			(effects
 				(font
@@ -3478,6 +3488,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 226.06 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
 			(at 226.06 29.21 0)
 			(effects
 				(font
@@ -3865,12 +3884,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mlab_Pin_Headers:Straight_2x03"
 			(at 252.73 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4428,7 +4448,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 243.84 26.67 0)
+		(at 243.84 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4437,7 +4457,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b12cb18-ba55-4859-9c21-b74ca28b0478")
 		(property "Reference" "#PWR02"
-			(at 243.84 30.48 0)
+			(at 243.84 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4466,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 243.84 22.5369 0)
+			(at 243.84 17.4569 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 26.67 0)
+			(at 243.84 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 26.67 0)
+			(at 243.84 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +4492,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 243.84 26.67 0)
+			(at 243.84 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_HCI-1050"
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2020"
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -4527,7 +4547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/34563/ihlp-2020cz-8a.pdf"
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -4545,7 +4565,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "6087af42128750769ee59060"
+		(property "UST_ID" "669e8efe6fdfe6f54e2eb7e6"
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -4869,7 +4889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
 			(at 217.17 26.67 0)
 			(effects
 				(font
@@ -5353,7 +5373,7 @@
 		(dnp no)
 		(uuid "c786bb3a-fe8f-4e24-8b34-69b0d4950745")
 		(property "Reference" "R14"
-			(at 233.172 20.574 0)
+			(at 231.14 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,7 +5381,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 231.648 22.86 0)
 			(effects
 				(font
@@ -5370,7 +5390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 232.41 29.21 0)
 			(effects
 				(font
@@ -5389,6 +5409,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 232.41 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
 			(at 232.41 29.21 0)
 			(effects
 				(font
