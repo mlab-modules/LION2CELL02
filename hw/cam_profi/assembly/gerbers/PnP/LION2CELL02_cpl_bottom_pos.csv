@@ -1,5 +1,5 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-"C1","100nF","C_0805_2012Metric",15.3670,29.3370,0.0000,bottom
+"C1","100nF","C_0805_2012Metric",19.6850,39.2430,90.0000,bottom
 "C2","0.1u","C_0805_2012Metric",29.9720,34.5440,90.0000,bottom
 "C3","10u","C_0805_2012Metric",27.9400,34.5440,90.0000,bottom
 "C4","10u","C_0805_2012Metric",23.3680,27.9400,180.0000,bottom
@@ -32,23 +32,23 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "D1","LED","LED_1206",62.9920,9.9060,-90.0000,bottom
 "D2","PDS760-13","D_PowerDI-5",54.7022,20.9120,180.0000,bottom
 "D3","LED","LED_1206",30.7594,10.4648,90.0000,bottom
-"D4","LED","LED_1206",66.0400,9.9060,90.0000,bottom
-"D5","LED","LED_1206",69.2150,9.9060,90.0000,bottom
+"D4","LED","LED_1206",66.0717,9.9060,90.0000,bottom
+"D5","LED","LED_1206",69.1515,9.9060,90.0000,bottom
 "D6","1N4148WS","D_0805_2012Metric",57.3771,41.1465,90.0000,bottom
-"D7","LED","LED_1206",72.2630,9.9060,-90.0000,bottom
+"D7","LED","LED_1206",72.2313,9.9060,-90.0000,bottom
 "D8","LED","LED_1206",75.3110,9.9060,-90.0000,bottom
 "FID1","Fiducial","Fiducial_1mm_Mask2mm",6.7310,6.7310,180.0000,bottom
 "FID2","Fiducial","Fiducial_1mm_Mask2mm",84.7090,64.3890,180.0000,bottom
 "FID3","Fiducial","Fiducial_1mm_Mask2mm",87.5030,3.9370,180.0000,bottom
 "FID4","Fiducial","Fiducial_1mm_Mask2mm",2.5400,67.6630,180.0000,bottom
 "J1","USBC_USB4105-GF-A","USBC GCT_USB4105-GF-A",8.0010,35.5600,90.0000,bottom
-"L1","1uH","L_1008_2520Metric",31.2420,22.3520,180.0000,bottom
+"L1","2.2uH","L_Vishay_IHLP-2020",31.2420,19.6850,180.0000,bottom
 "L2","2.2uH","L_Vishay_IHLP-2020",61.5348,19.5658,-90.0000,bottom
 "Q1","DMT31M7LPS","D_POWERDI5060-8_6.0x5.1mm_P1.27mm",39.6240,51.1810,90.0000,bottom
 "Q2","AP2305AGN-HF-3","SOT-23",24.1300,45.0850,180.0000,bottom
 "Q3","DMT31M7LPS","D_POWERDI5060-8_6.0x5.1mm_P1.27mm",21.7170,52.0700,180.0000,bottom
 "Q5","DMT31M7LPS","D_POWERDI5060-8_6.0x5.1mm_P1.27mm",29.0830,52.0700,0.0000,bottom
-"R1","5k1","R_0805_2012Metric",15.7480,37.4650,-90.0000,bottom
+"R1","5k1","R_0805_2012Metric",16.6370,37.0840,180.0000,bottom
 "R2","5k1","R_0805_2012Metric",15.6210,33.0200,90.0000,bottom
 "R3","127k","R_0805_2012Metric",34.9250,35.1790,180.0000,bottom
 "R4","100k","R_0805_2012Metric",38.4810,35.1790,0.0000,bottom
@@ -57,12 +57,12 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "R7","2k2","R_0805_2012Metric",20.5740,28.7020,-90.0000,bottom
 "R8","100","R_0805_2012Metric",41.9100,35.1790,0.0000,bottom
 "R9","8k2","R_0805_2012Metric",38.4810,28.5750,0.0000,bottom
-"R10","91k","R_0805_2012Metric",62.3570,27.8638,180.0000,bottom
-"R11","10k","R_0805_2012Metric",43.9420,57.1500,180.0000,bottom
+"R10","44k2","R_0805_2012Metric",62.3570,27.8638,180.0000,bottom
+"R11","10k","R_0805_2012Metric",43.1800,62.8650,180.0000,bottom
 "R12","15k8","R_0805_2012Metric",50.7652,30.2084,0.0000,bottom
 "R13","10k","R_0805_2012Metric",59.4614,27.0002,-90.0000,bottom
-"R14","10k","R_0805_2012Metric",73.6600,63.5000,0.0000,bottom
-"R15","10k","R_0805_2012Metric",68.5800,63.5000,180.0000,bottom
+"R14","10k","R_0805_2012Metric",71.8820,62.9920,0.0000,bottom
+"R15","10k","R_0805_2012Metric",67.8180,62.9920,180.0000,bottom
 "R17","470R","R_1206_3216Metric",16.7640,49.4030,-90.0000,bottom
 "R18","10M","R_0805_2012Metric",24.1300,48.0060,180.0000,bottom
 "R19","5.1k","R_0805_2012Metric",28.0670,45.8470,180.0000,bottom
