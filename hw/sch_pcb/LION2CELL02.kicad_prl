@@ -2,7 +2,7 @@
   "board": {
     "active_layer": 31,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -61,7 +61,7 @@
       37,
       38
     ],
-    "visible_layers": "ffeffcf_ffffffff",
+    "visible_layers": "ffeffef_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
