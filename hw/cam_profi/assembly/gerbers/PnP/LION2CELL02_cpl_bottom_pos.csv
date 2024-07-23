@@ -37,10 +37,10 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "D6","1N4148WS","D_0805_2012Metric",57.3771,41.1465,90.0000,bottom
 "D7","LED","LED_1206",72.2313,9.9060,-90.0000,bottom
 "D8","LED","LED_1206",75.3110,9.9060,-90.0000,bottom
-"FID1","Fiducial","Fiducial_1mm_Mask2mm",6.7310,6.7310,180.0000,bottom
-"FID2","Fiducial","Fiducial_1mm_Mask2mm",84.7090,64.3890,180.0000,bottom
-"FID3","Fiducial","Fiducial_1mm_Mask2mm",87.5030,3.9370,180.0000,bottom
-"FID4","Fiducial","Fiducial_1mm_Mask2mm",2.5400,67.6630,180.0000,bottom
+"FID1","Fiducial","Fiducial_1mm_Mask2mm",13.3858,14.7828,180.0000,bottom
+"FID2","Fiducial","Fiducial_1mm_Mask2mm",80.6958,52.6034,180.0000,bottom
+"FID3","Fiducial","Fiducial_1mm_Mask2mm",78.3590,19.5072,180.0000,bottom
+"FID4","Fiducial","Fiducial_1mm_Mask2mm",16.6370,59.2328,180.0000,bottom
 "J1","USBC_USB4105-GF-A","USBC GCT_USB4105-GF-A",8.0010,35.5600,90.0000,bottom
 "L1","2.2uH","L_Vishay_IHLP-2020",31.2420,19.6850,180.0000,bottom
 "L2","2.2uH","L_Vishay_IHLP-2020",61.5348,19.5658,-90.0000,bottom
