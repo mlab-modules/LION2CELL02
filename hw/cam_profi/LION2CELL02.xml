@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/LION2CELL02.kicad_sch</source>
-    <date>2024-07-24T18:40:08+0000</date>
+    <date>2024-07-24T20:06:51+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -266,13 +266,13 @@
       <value>2.2uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C23630</field>
+        <field name="UST_ID">5c70984712875079b91f8b51</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C23630"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b51"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -285,12 +285,14 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
+        <field name="UST_ID"> 5c70984712875079b91f8b4c </field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
+      <property name="UST_ID" value=" 5c70984712875079b91f8b4c "/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -303,12 +305,14 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
+        <field name="UST_ID"> 5c70984712875079b91f8b4c </field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
+      <property name="UST_ID" value=" 5c70984712875079b91f8b4c "/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -321,12 +325,14 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
+        <field name="UST_ID"> 5c70984712875079b91f8b4c </field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
+      <property name="UST_ID" value=" 5c70984712875079b91f8b4c "/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -339,11 +345,13 @@
       <footprint>Mlab_D:LED_1206</footprint>
       <description>Light emitting diode</description>
       <fields>
+        <field name="UST_ID">5c70984412875079b91f8892</field>
         <field name="Footprint">Mlab_D:LED_1206</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984412875079b91f8892"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -356,11 +364,13 @@
       <footprint>Mlab_D:LED_1206</footprint>
       <description>Light emitting diode</description>
       <fields>
+        <field name="UST_ID">5c70984412875079b91f8892</field>
         <field name="Footprint">Mlab_D:LED_1206</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984412875079b91f8892"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -373,11 +383,13 @@
       <footprint>Mlab_D:LED_1206</footprint>
       <description>Light emitting diode</description>
       <fields>
+        <field name="UST_ID">5c70984412875079b91f8892</field>
         <field name="Footprint">Mlab_D:LED_1206</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984412875079b91f8892"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -411,11 +423,13 @@
       <footprint>Mlab_D:LED_1206</footprint>
       <description>Light emitting diode</description>
       <fields>
+        <field name="UST_ID">5c70984412875079b91f8892</field>
         <field name="Footprint">Mlab_D:LED_1206</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984412875079b91f8892"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -428,11 +442,13 @@
       <footprint>Mlab_D:LED_1206</footprint>
       <description>Light emitting diode</description>
       <fields>
+        <field name="UST_ID">5c70984412875079b91f8892</field>
         <field name="Footprint">Mlab_D:LED_1206</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984412875079b91f8892"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -537,13 +553,13 @@
       <value>470R</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <fields>
-        <field name="LCSC">C17887</field>
+        <field name="UST_ID">60be2ed51287500165e6c1cd</field>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C17887"/>
+      <property name="UST_ID" value="60be2ed51287500165e6c1cd"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -556,12 +572,14 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C26082</field>
+        <field name="UST_ID">5c70984712875079b91f8aae</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C26082"/>
+      <property name="UST_ID" value="5c70984712875079b91f8aae"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -570,16 +588,18 @@
       <tstamps>d2711b26-c766-4037-be41-cc017faf6fc4</tstamps>
     </comp>
     <comp ref="R19">
-      <value>5.1k</value>
+      <value>5k1</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25905</field>
+        <field name="UST_ID">5fa0fc3e12875025b3977997 </field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C25905"/>
+      <property name="UST_ID" value="5fa0fc3e12875025b3977997 "/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -592,12 +612,14 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C17408</field>
+        <field name="UST_ID">5c70984512875079b91f8977</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C17408"/>
+      <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -610,12 +632,14 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C26082</field>
+        <field name="UST_ID">5c70984712875079b91f8aae</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C26082"/>
+      <property name="UST_ID" value="5c70984712875079b91f8aae"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -628,12 +652,14 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C26082</field>
+        <field name="UST_ID">5c70984712875079b91f8aae</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C26082"/>
+      <property name="UST_ID" value="5c70984712875079b91f8aae"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -646,12 +672,14 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25744</field>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C25744"/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -660,16 +688,18 @@
       <tstamps>0630da1d-b354-498b-b55a-3438d9bbbaab</tstamps>
     </comp>
     <comp ref="R27">
-      <value>5.1k</value>
+      <value>5k1</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25905</field>
+        <field name="UST_ID">5fa0fc3e12875025b3977997 </field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C25905"/>
+      <property name="UST_ID" value="5fa0fc3e12875025b3977997 "/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -678,16 +708,18 @@
       <tstamps>edcdeec3-5850-47f7-9761-c8550104297a</tstamps>
     </comp>
     <comp ref="R28">
-      <value>5.1k</value>
+      <value>5k1</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25905</field>
+        <field name="UST_ID">5fa0fc3e12875025b3977997 </field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C25905"/>
+      <property name="UST_ID" value="5fa0fc3e12875025b3977997 "/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -700,12 +732,14 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C17408</field>
+        <field name="UST_ID">5c70984512875079b91f8977</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C17408"/>
+      <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -718,12 +752,14 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C17408</field>
+        <field name="UST_ID">5c70984512875079b91f8977</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C17408"/>
+      <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -736,12 +772,14 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25076</field>
+        <field name="UST_ID">5c70984512875079b91f8977</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C25076"/>
+      <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -773,12 +811,14 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25076</field>
+        <field name="UST_ID">5c70984512875079b91f8977</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C25076"/>
+      <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -791,13 +831,13 @@
       <footprint>Mlab_SW:SW_PUSH_SMALL</footprint>
       <description>Push button switch, generic, two pins</description>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984712875079b91f8ad2</field>
         <field name="Footprint">Mlab_SW:SW_PUSH_SMALL</field>
         <field name="Datasheet"/>
         <field name="Description">Push button switch, generic, two pins</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8ad2"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
@@ -809,11 +849,13 @@
       <footprint>Mlab_SW:SW_PUSH_SMALL</footprint>
       <description>Push button switch, generic, two pins</description>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8ad2</field>
         <field name="Footprint">Mlab_SW:SW_PUSH_SMALL</field>
         <field name="Datasheet"/>
         <field name="Description">Push button switch, generic, two pins</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="UST_ID" value="5c70984712875079b91f8ad2"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
@@ -821,16 +863,18 @@
       <tstamps>763475ae-ebe6-4671-bb0e-6b747a3e92ed</tstamps>
     </comp>
     <comp ref="TH1">
-      <value>10k</value>
+      <value>NCP21XV103J03RA</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C279801</field>
+        <field name="UST_ID">5c70984712875079b91f8ac5</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
       <property name="LCSC" value="C279801"/>
+      <property name="UST_ID" value="5c70984712875079b91f8ac5"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="thermistor NTC resistor sensor RTD"/>
@@ -839,18 +883,18 @@
       <tstamps>dd3e8713-641c-4e1c-a615-36afc38e14f7</tstamps>
     </comp>
     <comp ref="TH2">
-      <value>10k</value>
+      <value>NCP21XV103J03RA</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C279801</field>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984712875079b91f8ac5</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
       <property name="LCSC" value="C279801"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8ac5"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="thermistor NTC resistor sensor RTD"/>
@@ -883,12 +927,14 @@
       <datasheet>http://www.ti.com/lit/ds/symlink/bq40z50-r2.pdf</datasheet>
       <fields>
         <field name="LCSC">C179743</field>
+        <field name="UST_ID">66a15dd06fdfe6f54e2ebf93</field>
         <field name="Footprint">Mlab_IO:Texas_RSM0032A_VQFN-32-4.1x4.1-EP-1.4</field>
         <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq40z50-r2.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="ti-balancers" part="BQ40z50-R2" description=""/>
       <property name="LCSC" value="C179743"/>
+      <property name="UST_ID" value="66a15dd06fdfe6f54e2ebf93"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <sheetpath names="/Fuel Gauge/" tstamps="/ff769b56-ac69-4554-8831-ccbbcdb6fdfa/"/>
@@ -917,14 +963,16 @@
       <tstamps>1243b76f-2166-48e0-9325-80961c964079</tstamps>
     </comp>
     <comp ref="C2">
-      <value>0.1u</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID"> 5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value=" 5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -936,11 +984,13 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -952,11 +1002,13 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -965,16 +1017,16 @@
       <tstamps>b5a63413-9cb1-48bf-b172-3db96b9c2395</tstamps>
     </comp>
     <comp ref="C5">
-      <value>0.1u</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -986,11 +1038,13 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1002,11 +1056,13 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1018,11 +1074,13 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1034,11 +1092,13 @@
       <value>47nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">65482046462c6d9e72056b98</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="65482046462c6d9e72056b98"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1050,13 +1110,13 @@
       <value>47nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">65482046462c6d9e72056b98</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="65482046462c6d9e72056b98"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1068,11 +1128,13 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1084,11 +1146,13 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1116,13 +1180,13 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1134,11 +1198,13 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1150,11 +1216,13 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1166,11 +1234,13 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1183,7 +1253,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFPN">C0805 1u</field>
-        <field name="UST_ID">5c70984712875079b91f8b45</field>
+        <field name="UST_ID"> 5c70984712875079b91f8b4c </field>
         <field name="MPN">C0805 1u</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
@@ -1191,7 +1261,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="MFPN" value="C0805 1u"/>
-      <property name="UST_ID" value="5c70984712875079b91f8b45"/>
+      <property name="UST_ID" value=" 5c70984712875079b91f8b4c "/>
       <property name="MPN" value="C0805 1u"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
@@ -1204,11 +1274,13 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1220,11 +1292,13 @@
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984712875079b91f8b53</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1237,11 +1311,13 @@
       <footprint>Mlab_D:LED_1206</footprint>
       <description>Light emitting diode</description>
       <fields>
+        <field name="UST_ID">5c70984412875079b91f8892</field>
         <field name="Footprint">Mlab_D:LED_1206</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="UST_ID" value="5c70984412875079b91f8892"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -1409,11 +1485,13 @@
       <value>127k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">66a1559d6fdfe6f54e2ebeaa</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="66a1559d6fdfe6f54e2ebeaa"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1425,11 +1503,13 @@
       <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">639ed3d540d28a66c9e88a9e</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="639ed3d540d28a66c9e88a9e"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1441,11 +1521,13 @@
       <value>5.24k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">66a159d36fdfe6f54e2ebef5</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="66a159d36fdfe6f54e2ebef5"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1457,11 +1539,13 @@
       <value>30.31k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">66a15a4a6fdfe6f54e2ebf1b</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="66a15a4a6fdfe6f54e2ebf1b"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1473,13 +1557,13 @@
       <value>2k2</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984612875079b91f8990</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984612875079b91f8990"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1491,13 +1575,13 @@
       <value>100</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984512875079b91f8977</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1509,13 +1593,13 @@
       <value>8k2</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984612875079b91f899c</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984612875079b91f899c"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1527,11 +1611,13 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1563,13 +1649,13 @@
       <footprint>Mlab_IO:Texas_RQM0029A_VQFN-HR-28_4x4mm_P0.5mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/bq25792.pdf</datasheet>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">66a15cdb6fdfe6f54e2ebf66</field>
         <field name="Footprint">Mlab_IO:Texas_RQM0029A_VQFN-HR-28_4x4mm_P0.5mm</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/bq25792.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="LiPo_Charger_BQ25792RQMR" part="BQ25792RQMR" description=""/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="66a15cdb6fdfe6f54e2ebf66"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <sheetpath names="/Power Input/" tstamps="/84542805-f3a9-4fad-892e-419f78d99400/"/>
@@ -1853,13 +1939,13 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power_output.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1872,13 +1958,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power_output.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -1891,13 +1977,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor, small symbol</description>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power_output.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
