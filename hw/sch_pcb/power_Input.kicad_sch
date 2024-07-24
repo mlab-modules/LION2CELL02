@@ -6433,7 +6433,7 @@
 		(dnp no)
 		(uuid "34d27914-a46e-4938-9c88-f7a397572558")
 		(property "Reference" "C20"
-			(at 217.17 104.14 0)
+			(at 220.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,8 +6441,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 218.44 106.68 0)
+		(property "Value" "4u7"
+			(at 220.98 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,6 +6469,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5e3ff8fc1287502a33bad7a3"
 			(at 219.71 110.49 0)
 			(effects
 				(font
@@ -8437,7 +8446,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" " 5c70984712875079b91f8b4c"
+		(property "UST_ID" "5c70984712875079b91f8b4c"
 			(at 154.94 66.04 0)
 			(effects
 				(font
@@ -9809,7 +9818,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" " 5c70984712875079b91f8b4c "
+		(property "UST_ID" "5c70984712875079b91f8b4c"
 			(at 49.53 144.78 0)
 			(effects
 				(font
