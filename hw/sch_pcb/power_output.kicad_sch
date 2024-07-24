@@ -5095,6 +5095,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" ""
+			(at 252.73 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "da0f0675-7c5c-46ee-9e46-dd0c64cc9542")
 		)
