@@ -4740,7 +4740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMT31M7LPS"
+		(property "Value" "DMTH3002LPS"
 			(at 110.49 63.5 0)
 			(effects
 				(font
@@ -4758,7 +4758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf"
 			(at 113.03 68.58 0)
 			(effects
 				(font
@@ -5654,16 +5654,16 @@
 	)
 	(symbol
 		(lib_id "MLAB_HEADER:HEADER_1x02")
-		(at 152.4 128.27 90)
+		(at 152.4 128.27 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b865073-a841-4e3e-93fa-a6bc92074508")
 		(property "Reference" "J11"
-			(at 155.575 126.8535 90)
+			(at 160.02 128.27 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5672,7 +5672,7 @@
 			)
 		)
 		(property "Value" "HEADER_1x02"
-			(at 155.575 129.6864 90)
+			(at 170.18 132.08 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5680,8 +5680,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_1x02"
-			(at 151.13 128.27 0)
+		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
+			(at 153.67 128.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5690,7 +5690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 128.27 0)
+			(at 153.67 128.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5805,7 +5805,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMT31M7LPS"
+		(property "Value" "DMTH3002LPS"
 			(at 139.7 62.23 0)
 			(effects
 				(font
@@ -5823,7 +5823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -7334,7 +7334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_1x02"
+		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
 			(at 132.08 154.94 0)
 			(effects
 				(font

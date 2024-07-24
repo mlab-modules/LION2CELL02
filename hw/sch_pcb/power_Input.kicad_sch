@@ -6297,7 +6297,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMT31M7LPS"
+		(property "Value" "DMTH3002LPS"
 			(at 247.65 93.98 0)
 			(effects
 				(font
@@ -6315,7 +6315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf"
 			(at 236.22 90.17 0)
 			(effects
 				(font
@@ -6325,15 +6325,6 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, source/gate/drain"
-			(at 236.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " DMT31M7LPS-13"
 			(at 236.22 90.17 0)
 			(effects
 				(font
@@ -7275,7 +7266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_1x02"
+		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
 			(at 144.78 118.11 0)
 			(effects
 				(font
@@ -9466,7 +9457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/34563/ihlp-2020cz-8a.pdf"
 			(at 167.64 86.36 0)
 			(effects
 				(font
@@ -9534,7 +9525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_1x02"
+		(property "Footprint" "Mlab_Pin_Headers:Straight_2x01"
 			(at 144.78 120.65 0)
 			(effects
 				(font

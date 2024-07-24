@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -59,20 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_overlap|124470500|79814000|ba4d5369-341f-4e6b-b62c-61328789c654|a7eb8f37-17f1-447f-a44b-fa79c6bf45b5",
-        "silk_overlap|124470500|79814000|ba4d5369-341f-4e6b-b62c-61328789c654|e9732a7f-490f-46c9-84f0-f08b32da590f",
-        "silk_overlap|124470500|79817800|a7eb8f37-17f1-447f-a44b-fa79c6bf45b5|e9119a7e-8cd8-415d-aa6f-4b4bf9a7b25b",
-        "silk_overlap|124470500|84817800|4ba4d96b-fa30-4496-8f6e-e122c9999532|db4d4466-a50c-4b5c-b0c5-2444a2e338e3",
-        "silk_overlap|130470500|79814000|e9119a7e-8cd8-415d-aa6f-4b4bf9a7b25b|3b37b7e7-406d-486b-a0a0-1d0709a6b4bc",
-        "silk_overlap|130470500|79817800|e9732a7f-490f-46c9-84f0-f08b32da590f|1f03fe4d-9c48-446e-af07-ecbe3fc2a7b8",
-        "silk_overlap|130470500|79817800|e9732a7f-490f-46c9-84f0-f08b32da590f|e9119a7e-8cd8-415d-aa6f-4b4bf9a7b25b",
-        "silk_overlap|130470500|84817800|68c6f1c2-735b-4fab-88e4-9e860582cdf7|db4d4466-a50c-4b5c-b0c5-2444a2e338e3",
-        "silk_overlap|139470500|79814000|1f03fe4d-9c48-446e-af07-ecbe3fc2a7b8|3b37b7e7-406d-486b-a0a0-1d0709a6b4bc",
-        "silk_overlap|139470500|79814000|1f03fe4d-9c48-446e-af07-ecbe3fc2a7b8|e7d2a33c-8575-49e6-83c6-aa0c976af7af",
-        "silk_overlap|139470500|79817700|e7d2a33c-8575-49e6-83c6-aa0c976af7af|634d39d0-ee0d-4af1-8a32-b9cf8293125f",
-        "silk_overlap|139470500|79817800|3b37b7e7-406d-486b-a0a0-1d0709a6b4bc|634d39d0-ee0d-4af1-8a32-b9cf8293125f"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -644,11 +631,53 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFPN",
+          "name": "MFPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "UST_ID",
+          "name": "UST_ID",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
