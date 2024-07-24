@@ -4876,6 +4876,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984612875079b91f899f"
+			(at 153.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbc1b91e-3524-41f5-a7b6-848d396579a5")
 		)
@@ -4953,6 +4962,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f8977"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "290eb1d6-69ca-4328-bee1-cbbd74f475c8")
 		)
@@ -5023,6 +5041,15 @@
 			)
 		)
 		(property "LCSC" "C1525"
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" " 5c70984712875079b91f8b4c "
 			(at 74.93 132.08 0)
 			(effects
 				(font
@@ -5173,6 +5200,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f8977"
+			(at 68.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69cd50c3-5fd7-4074-bef7-9edca3301bb5")
 		)
@@ -5208,7 +5244,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 111.5315 80.4422 0)
 			(effects
 				(font
@@ -5245,6 +5281,15 @@
 			)
 		)
 		(property "LCSC" "C25905"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5fa0fc3e12875025b3977997 "
 			(at 113.03 78.74 0)
 			(effects
 				(font
@@ -5321,6 +5366,15 @@
 			)
 		)
 		(property "LCSC" "C179743"
+			(at 120.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "66a15dd06fdfe6f54e2ebf93"
 			(at 120.65 109.22 0)
 			(effects
 				(font
@@ -5558,6 +5612,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984412875079b91f8892"
+			(at 207.01 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98c8fe05-f1fa-46a1-9328-08e927a1e855")
 		)
@@ -5628,7 +5691,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984712875079b91f8ad2"
 			(at 135.89 139.7 0)
 			(effects
 				(font
@@ -6026,6 +6089,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984712875079b91f8aae"
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21eec61e-bed4-4e28-bfbd-5f8039c873b6")
 		)
@@ -6226,8 +6298,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23630"
-			(at 95.25 96.52 90)
+		(property "UST_ID" "5c70984712875079b91f8b51"
+			(at 95.25 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,6 +6386,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" " 5c70984712875079b91f8b4c "
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ef3c1fe-b939-4f5f-98ab-4a5dd83d9254")
 		)
@@ -6376,6 +6457,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8ad2"
 			(at 172.72 130.81 0)
 			(effects
 				(font
@@ -6538,6 +6628,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984412875079b91f8892"
+			(at 195.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55275b12-8df8-4432-8ebc-0089ca16f6ad")
 		)
@@ -6561,7 +6660,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "876b9f8e-adeb-4f8d-beb3-e019b6878d30")
 		(property "Reference" "TH2"
 			(at 127 146.1678 0)
@@ -6572,13 +6670,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 127 148.7047 0)
+		(property "Value" "NCP21XV103J03RA"
+			(at 124.46 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -6617,7 +6716,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984712875079b91f8ac5"
 			(at 123.19 147.32 0)
 			(effects
 				(font
@@ -6760,8 +6859,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17887"
-			(at 110.49 49.53 90)
+		(property "UST_ID" "60be2ed51287500165e6c1cd"
+			(at 110.49 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6839,6 +6938,15 @@
 		)
 		(property "LCSC" "C17408"
 			(at 77.47 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984512875079b91f8977"
+			(at 77.47 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,6 +7178,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f8977"
+			(at 132.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74249929-0000-40c6-847a-94b038d6ef38")
 		)
@@ -7212,6 +7329,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f8977"
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe1287c7-0d45-401e-8820-3f76c2bb3c02")
 		)
@@ -7246,7 +7372,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 120.8786 63.9322 0)
 			(effects
 				(font
@@ -7283,6 +7409,15 @@
 			)
 		)
 		(property "LCSC" "C25905"
+			(at 119.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5fa0fc3e12875025b3977997 "
 			(at 119.38 62.23 0)
 			(effects
 				(font
@@ -7422,6 +7557,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 186.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984412875079b91f8892"
 			(at 186.69 121.92 0)
 			(effects
 				(font
@@ -7658,6 +7802,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984712875079b91f8aae"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a58536e-6d8e-456a-9280-e88c77e36d90")
 		)
@@ -7807,6 +7960,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984412875079b91f8892"
+			(at 186.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de0d35a0-005a-4f44-b646-d64ec08224b3")
 		)
@@ -7830,7 +7992,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dd3e8713-641c-4e1c-a615-36afc38e14f7")
 		(property "Reference" "TH1"
 			(at 116.84 146.1678 0)
@@ -7841,8 +8002,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 116.84 148.7047 0)
+		(property "Value" "NCP21XV103J03RA"
+			(at 109.22 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7878,6 +8039,15 @@
 			)
 		)
 		(property "LCSC" "C279801"
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8ac5"
 			(at 113.03 147.32 0)
 			(effects
 				(font
@@ -7964,6 +8134,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" "5c70984712875079b91f8aae"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7dfa666-9b20-4ba6-8d63-a5e208805c71")
 		)
@@ -8026,6 +8205,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984412875079b91f8892"
 			(at 195.58 110.49 0)
 			(effects
 				(font
@@ -8113,6 +8301,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" " 5c70984712875079b91f8b4c "
+			(at 82.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c86dbfcc-4472-490e-99a5-02b2baf9156e")
 		)
@@ -8145,7 +8342,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 128.27 77.3867 90)
 			(effects
 				(font
@@ -8181,6 +8378,15 @@
 			)
 		)
 		(property "LCSC" "C25905"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5fa0fc3e12875025b3977997 "
 			(at 128.27 74.93 0)
 			(effects
 				(font

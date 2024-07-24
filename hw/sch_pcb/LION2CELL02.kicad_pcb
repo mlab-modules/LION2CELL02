@@ -3430,7 +3430,7 @@
 				)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984712875079b91f8ad2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3748,7 +3748,7 @@
 				)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984712875079b91f8ad2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5251,7 +5251,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "NCP21XV103J03RA"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "496f853b-b1df-405b-b9c2-8f82afd8c09e")
@@ -5314,7 +5314,7 @@
 				)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984712875079b91f8ac5"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5491,7 +5491,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "NCP21XV103J03RA"
 			(at 0 1.65 180)
 			(layer "F.Fab")
 			(uuid "8f768ceb-cbcf-4c41-b58a-44ff2821bd91")
@@ -5547,6 +5547,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3f7af518-28e1-4c85-829d-44bd2e519791")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8ac5"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76450ed6-0a67-4110-9570-6a1385ea688f")
 			(effects
 				(font
 					(size 1 1)
@@ -5979,7 +5992,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "7f401b7a-26de-4021-a266-2f36c4eb9189")
@@ -6033,7 +6046,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984812875079b91f8bf2"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6266,6 +6279,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "43b4fc91-e6b0-4c73-9f5e-8dc54c50c4e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/84542805-f3a9-4fad-892e-419f78d99400/0a9826ad-0f1f-4579-a629-b1fd922c71b6")
 		(sheetname "Power Input")
@@ -6480,6 +6507,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7472d113-ed4b-442a-81ed-a12660b8ce05")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -6704,6 +6745,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5e3a50dd-e26f-4e95-89b7-9341fdfe2a87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/84542805-f3a9-4fad-892e-419f78d99400/a032e6c7-2ab5-4009-985e-2763d30305c0")
 		(sheetname "Power Input")
@@ -6918,6 +6973,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "65482046462c6d9e72056b98"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b553e56b-355e-4b42-b4ea-86aa88302bc9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -7142,6 +7211,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5cf34417-7e51-4606-b507-5a045b80f195")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/84542805-f3a9-4fad-892e-419f78d99400/6c883a1b-1df5-4b0d-a64e-69481df4cc9c")
 		(sheetname "Power Input")
@@ -7361,12 +7444,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C23630"
+		(property "UST_ID" "5c70984712875079b91f8b51"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fa283516-0861-4afa-986b-f1413b11f53b")
+			(uuid "e56711ac-f667-4f51-b34e-471ef2283fa3")
 			(effects
 				(font
 					(size 1 1)
@@ -7608,6 +7691,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" " 5c70984712875079b91f8b4c "
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b0a7289e-79ab-431f-afd2-6f4b557ece20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ff769b56-ac69-4554-8831-ccbbcdb6fdfa/ea954b7d-383c-4064-8cb2-00f8d63eae49")
 		(sheetname "Fuel Gauge")
@@ -7841,6 +7938,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" " 5c70984712875079b91f8b4c "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "766742e8-6087-47d8-8c5d-efc875ba42e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ff769b56-ac69-4554-8831-ccbbcdb6fdfa/751c95ed-0fb2-4dea-9362-64eea868195b")
 		(sheetname "Fuel Gauge")
@@ -8054,6 +8165,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5c70984412875079b91f8892"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cc8fc3fc-6aec-46a7-913b-701436314888")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -8289,6 +8414,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984412875079b91f8892"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9156aec6-331f-4380-a4d8-a10dd0fb53fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/84542805-f3a9-4fad-892e-419f78d99400/12e4a1b9-4dd0-4b82-92c6-7af8f61329c0")
 		(sheetname "Power Input")
@@ -8514,6 +8653,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5c70984412875079b91f8892"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6561e1ae-192e-40f5-824d-f614b02b5952")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -8749,6 +8902,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984412875079b91f8892"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0cba3e41-eb57-483e-9f61-4889b2191926")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ff769b56-ac69-4554-8831-ccbbcdb6fdfa/e708ccae-89e8-4f53-aed8-9bf89bc15a73")
 		(sheetname "Fuel Gauge")
@@ -8974,6 +9141,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5c70984412875079b91f8892"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "014970dc-6ffd-49db-92eb-9a5e84bc9cc4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -10599,6 +10780,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "66a1559d6fdfe6f54e2ebeaa"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f279ca6-5ab5-4894-8152-e145096e8509")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84542805-f3a9-4fad-892e-419f78d99400/03a59a75-7297-491d-a1d5-56fb5452ac47")
 		(sheetname "Power Input")
@@ -10813,6 +11008,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "66a159d36fdfe6f54e2ebef5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bf873330-0112-4f90-a592-1fb497237872")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -11037,6 +11246,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "66a15a4a6fdfe6f54e2ebf1b"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4704369e-1971-4dca-97a6-12354141007a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84542805-f3a9-4fad-892e-419f78d99400/3709a477-e035-488f-8f2c-a34ba32f16a2")
 		(sheetname "Power Input")
@@ -11256,7 +11479,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984612875079b91f8990"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11489,7 +11712,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984512875079b91f8977"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11722,7 +11945,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984612875079b91f899c"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11955,6 +12178,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984612875079b91f899f"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "93eda6af-08db-4996-bf69-0be8f27c9efc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84542805-f3a9-4fad-892e-419f78d99400/6f9ac162-3b1f-4915-9999-e270ad9f56d8")
 		(sheetname "Power Input")
@@ -12174,12 +12411,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C17887"
-			(at 0 0 90)
+		(property "UST_ID" "60be2ed51287500165e6c1cd"
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5d15d31d-0b99-471d-bd46-074a8df1153f")
+			(uuid "fd67081b-65ef-4c2f-97da-ba8b006bc712")
 			(effects
 				(font
 					(size 1 1)
@@ -12421,6 +12658,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984712875079b91f8aae"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f4a8f45d-49e6-4fbe-ab78-51ee6a2b9133")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ff769b56-ac69-4554-8831-ccbbcdb6fdfa/d2711b26-c766-4037-be41-cc017faf6fc4")
 		(sheetname "Fuel Gauge")
@@ -12586,7 +12837,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "102fb516-7e31-4641-b172-083dd849091b")
@@ -12646,6 +12897,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "390c4499-5941-4e42-a0dd-1f750fd9d96c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5fa0fc3e12875025b3977997 "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d7e0664-985d-465d-8c17-a95ac4c17f63")
 			(effects
 				(font
 					(size 1 1)
@@ -12887,6 +13152,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f8977"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8b60d724-e280-45a8-9be7-4476f1ac172c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ff769b56-ac69-4554-8831-ccbbcdb6fdfa/a9b2cae0-edb4-4f29-a347-d6c89cbe059a")
 		(sheetname "Fuel Gauge")
@@ -13112,6 +13391,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cd6fcb32-0805-44c8-b5ad-1fdb4d116b0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8aae"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7d17e264-0078-4897-8547-a192bb1e6a0d")
 			(effects
 				(font
 					(size 1 1)
@@ -13353,6 +13646,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984612875079b91f899f"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "620fe4aa-01d6-48ad-8c9b-022d925b07f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ff769b56-ac69-4554-8831-ccbbcdb6fdfa/0630da1d-b354-498b-b55a-3438d9bbbaab")
 		(sheetname "Fuel Gauge")
@@ -13518,7 +13825,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "6ecfee31-c983-41dc-bfb2-c34018f96caa")
@@ -13578,6 +13885,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "570c33d7-20ce-4467-ade4-db7afa669791")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5fa0fc3e12875025b3977997 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "999d9908-5c6b-48a7-960c-6a171d72012c")
 			(effects
 				(font
 					(size 1 1)
@@ -13751,7 +14072,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "87f83bb0-5e9b-464e-86f1-13780f2e3933")
@@ -13811,6 +14132,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "07b0ec94-4b65-4198-bd94-453a3d1d52a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5fa0fc3e12875025b3977997 "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e7cf13b-c268-4965-a5f2-9dedcaac8c5b")
 			(effects
 				(font
 					(size 1 1)
@@ -14052,6 +14387,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f8977"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f316891a-3ddf-46a1-acc9-cb006bf703b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ff769b56-ac69-4554-8831-ccbbcdb6fdfa/968f11bf-92cf-4024-8697-2a1466f64e65")
 		(sheetname "Fuel Gauge")
@@ -14285,6 +14634,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f8977"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c36e39f0-ddd8-4d1e-87ce-85f3294b303f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ff769b56-ac69-4554-8831-ccbbcdb6fdfa/09c5f9dd-103d-4ca3-9433-b2e9473c8326")
 		(sheetname "Fuel Gauge")
@@ -14503,7 +14866,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "66a15cdb6fdfe6f54e2ebf66"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15005,6 +15368,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a33aa527-03ef-44fc-85ac-a119d3b57ce6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "66a15dd06fdfe6f54e2ebf93"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f2b73d0f-dd47-4c4d-8285-23cf6b11d9a4")
 			(effects
 				(font
 					(size 1 1)
@@ -15665,6 +16042,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "639ed3d540d28a66c9e88a9e"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "923020bd-47f0-4606-9ec7-6b46ba8a4953")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84542805-f3a9-4fad-892e-419f78d99400/9471b863-72a9-420d-a6fa-33d445e34c0d")
 		(sheetname "Power Input")
@@ -15878,6 +16269,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5c70984412875079b91f8892"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c39dca4c-5e86-489e-8851-152096ed8c8d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -16114,6 +16519,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4aa9f652-09e5-45eb-86ac-797969f8f898")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/84542805-f3a9-4fad-892e-419f78d99400/b5a63413-9cb1-48bf-b172-3db96b9c2395")
 		(sheetname "Power Input")
@@ -16333,6 +16752,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2fb034e2-b768-4575-a92f-ae82f7d3931c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/84542805-f3a9-4fad-892e-419f78d99400/1adde7b7-987b-4913-88f1-c9980f45a29e")
 		(sheetname "Power Input")
@@ -16498,7 +16931,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 0 -1.68 -90)
 			(layer "B.Fab")
 			(uuid "c6e72f8c-fa5a-4347-8bb0-e0e37fe3a1c0")
@@ -16547,6 +16980,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" " 5c70984712875079b91f8b4c"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3317b4e1-a91f-40d2-afbf-f7577f64f216")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -16771,7 +17218,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "65482046462c6d9e72056b98"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17251,6 +17698,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f8977"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8cdc0c4-4685-4ebc-bf5f-916354a9de21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ff769b56-ac69-4554-8831-ccbbcdb6fdfa/22e64696-c61b-4168-9818-ca4571518fb8")
 		(sheetname "Fuel Gauge")
@@ -17465,6 +17926,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "97aa1b03-92b0-485e-b506-0bfd36874460")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -18155,6 +18630,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984512875079b91f8977"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5f7d3e24-2a50-4298-8eff-e04bd65414e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ff769b56-ac69-4554-8831-ccbbcdb6fdfa/b56db86c-652f-468a-ba0f-881072712f6a")
 		(sheetname "Fuel Gauge")
@@ -18380,6 +18869,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bed37c21-da43-4b60-b2ae-46301354db7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8aae"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9a132b47-1a02-4762-8d76-27538621e2fc")
 			(effects
 				(font
 					(size 1 1)
@@ -21255,6 +21758,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f0f3c06f-7985-4223-8604-78c4105c4526")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/84542805-f3a9-4fad-892e-419f78d99400/68faef4f-a184-4562-864f-923ff5e9faac")
 		(sheetname "Power Input")
@@ -21474,7 +21991,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984612875079b91f899f"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22262,7 +22779,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984612875079b91f899f"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23159,6 +23676,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" " 5c70984712875079b91f8b4c "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "233ff6d7-4cce-4779-96fa-496ced21af88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ff769b56-ac69-4554-8831-ccbbcdb6fdfa/129ceeae-8667-4a21-abb3-528446f47c66")
 		(sheetname "Fuel Gauge")
@@ -23373,6 +23904,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "36ccb7b5-2639-4d4f-ba36-09c2573d07c2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -23597,7 +24142,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984612875079b91f899f"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24063,7 +24608,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984812875079b91f8bf2"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24291,6 +24836,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "377eb7c2-71af-4f36-8b59-a120ed6a4cfb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -24663,6 +25222,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9aee4aa2-d31c-464b-9e9f-27ea248f4a16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/84542805-f3a9-4fad-892e-419f78d99400/bfd35b70-b6f0-4453-87f5-4665b0dc6bf8")
 		(sheetname "Power Input")
@@ -24896,7 +25469,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" "5c70984712875079b91f8b45"
+		(property "UST_ID" " 5c70984712875079b91f8b4c "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25138,6 +25711,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5c70984712875079b91f8b53"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "113be183-b11a-47cf-b6a4-814da489c5d7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -36460,50 +37047,10 @@
 		)
 	)
 	(zone
-		(net 34)
-		(net_name "Net-(Q1-G)")
-		(layer "B.Cu")
-		(uuid "5225a1bb-eb11-44c5-9e9d-92d8d72b35d4")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30002)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 143.54147 86.1836) (xy 143.753601 85.971469) (xy 143.344 85.770413) (xy 143.038293 86.073293)
-				(xy 143.344 86.380429)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 143.351471 85.77408) (xy 143.738915 85.96426) (xy 143.744832 85.970982) (xy 143.744263 85.979918)
-				(xy 143.742033 85.983036) (xy 143.541483 86.183586) (xy 143.54147 86.1836) (xy 143.352292 86.372163)
-				(xy 143.344013 86.375576) (xy 143.335745 86.372136) (xy 143.148073 86.183586) (xy 143.046566 86.081604)
-				(xy 143.043158 86.073323) (xy 143.046603 86.065059) (xy 143.338086 85.776272) (xy 143.346373 85.772884)
-			)
-		)
-	)
-	(zone
 		(net 38)
 		(net_name "Net-(Q3-G)")
 		(layer "B.Cu")
-		(uuid "83c97075-9432-46fa-81ee-354f3f5489e6")
+		(uuid "8b9cb93d-aaab-4ffd-891a-987ea2a2a752")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30000)
@@ -36536,45 +37083,6 @@
 				(xy 121.186848 86.887382) (xy 120.893399 86.738251) (xy 120.887576 86.731448) (xy 120.887 86.727821)
 				(xy 120.887 86.442178) (xy 120.890427 86.433905) (xy 120.893399 86.431748) (xy 121.18685 86.282616)
 				(xy 121.195776 86.281923)
-			)
-		)
-	)
-	(zone
-		(net 39)
-		(net_name "Net-(Q5-G)")
-		(layer "B.Cu")
-		(uuid "9194225d-0b6c-4e72-8093-1ab51e6ae084")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 135.473 90.545) (xy 135.473 90.245) (xy 135.168 90.09) (xy 134.532 90.395) (xy 135.168 90.7)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 135.173142 90.092613) (xy 135.466601 90.241748) (xy 135.472424 90.248551) (xy 135.473 90.252178)
-				(xy 135.473 90.537821) (xy 135.469573 90.546094) (xy 135.466601 90.548251) (xy 135.173151 90.697382)
-				(xy 135.164223 90.698076) (xy 135.162791 90.697502) (xy 134.553999 90.40555) (xy 134.548021 90.398882)
-				(xy 134.548508 90.389941) (xy 134.553999 90.38445) (xy 135.162793 90.092496) (xy 135.171732 90.09201)
 			)
 		)
 	)
@@ -36700,6 +37208,45 @@
 		)
 	)
 	(zone
+		(net 39)
+		(net_name "Net-(Q5-G)")
+		(layer "B.Cu")
+		(uuid "d87509b5-02b6-4fd8-93fb-a0b116e66b77")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 135.473 90.545) (xy 135.473 90.245) (xy 135.168 90.09) (xy 134.532 90.395) (xy 135.168 90.7)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 135.173142 90.092613) (xy 135.466601 90.241748) (xy 135.472424 90.248551) (xy 135.473 90.252178)
+				(xy 135.473 90.537821) (xy 135.469573 90.546094) (xy 135.466601 90.548251) (xy 135.173151 90.697382)
+				(xy 135.164223 90.698076) (xy 135.162791 90.697502) (xy 134.553999 90.40555) (xy 134.548021 90.398882)
+				(xy 134.548508 90.389941) (xy 134.553999 90.38445) (xy 135.162793 90.092496) (xy 135.171732 90.09201)
+			)
+		)
+	)
+	(zone
 		(net 5)
 		(net_name "VBUS")
 		(layer "B.Cu")
@@ -36779,6 +37326,46 @@
 				(xy 156.36306 116.212339) (xy 156.400646 116.186593) (xy 156.430965 116.173206) (xy 156.510406 116.093765)
 				(xy 156.523793 116.063446) (xy 156.549537 116.025862) (xy 156.693283 115.882116) (xy 156.754605 115.848634)
 				(xy 156.780962 115.8458) (xy 158.253038 115.8458)
+			)
+		)
+	)
+	(zone
+		(net 34)
+		(net_name "Net-(Q1-G)")
+		(layer "B.Cu")
+		(uuid "e9a4459a-a33d-454f-a85e-94ee7c5a2e4f")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30002)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 143.54147 86.1836) (xy 143.753601 85.971469) (xy 143.344 85.770413) (xy 143.038293 86.073293)
+				(xy 143.344 86.380429)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 143.351471 85.77408) (xy 143.738915 85.96426) (xy 143.744832 85.970982) (xy 143.744263 85.979918)
+				(xy 143.742033 85.983036) (xy 143.541483 86.183586) (xy 143.54147 86.1836) (xy 143.352292 86.372163)
+				(xy 143.344013 86.375576) (xy 143.335745 86.372136) (xy 143.148073 86.183586) (xy 143.046566 86.081604)
+				(xy 143.043158 86.073323) (xy 143.046603 86.065059) (xy 143.338086 85.776272) (xy 143.346373 85.772884)
 			)
 		)
 	)
