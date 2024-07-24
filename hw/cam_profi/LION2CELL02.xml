@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/LION2CELL02.kicad_sch</source>
-    <date>2024-07-23T23:56:37+0000</date>
+    <date>2024-07-24T18:27:41+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -442,10 +442,10 @@
     </comp>
     <comp ref="J10">
       <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <description>2x01 2.54 mm pitch header, 2 pins next to each other are connected</description>
       <fields>
-        <field name="Footprint">Mlab_Pin_Headers:Straight_1x02</field>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x01</field>
         <field name="Datasheet"/>
         <field name="Description">2x01 2.54 mm pitch header, 2 pins next to each other are connected</field>
       </fields>
@@ -458,10 +458,10 @@
     </comp>
     <comp ref="J11">
       <value>HEADER_1x02</value>
-      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <description>1x02 2.54 mm pitch header</description>
       <fields>
-        <field name="Footprint">Mlab_Pin_Headers:Straight_1x02</field>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x01</field>
         <field name="Datasheet"/>
         <field name="Description">1x02 2.54 mm pitch header</field>
       </fields>
@@ -492,15 +492,15 @@
       <tstamps>cf2b08c7-e7e3-40ae-ba11-13fbd399789b</tstamps>
     </comp>
     <comp ref="Q3">
-      <value>DMT31M7LPS</value>
+      <value>DMTH3002LPS</value>
       <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
-      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
-        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
@@ -513,15 +513,15 @@
       <tstamps>057e0303-e46f-4e53-8abe-a39d50fba5c2</tstamps>
     </comp>
     <comp ref="Q5">
-      <value>DMT31M7LPS</value>
+      <value>DMTH3002LPS</value>
       <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
-      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
         <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
-        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
@@ -1273,10 +1273,10 @@
     </comp>
     <comp ref="J6">
       <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <description>2x01 2.54 mm pitch header, 2 pins next to each other are connected</description>
       <fields>
-        <field name="Footprint">Mlab_Pin_Headers:Straight_1x02</field>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x01</field>
         <field name="Datasheet"/>
         <field name="Description">2x01 2.54 mm pitch header, 2 pins next to each other are connected</field>
       </fields>
@@ -1289,10 +1289,10 @@
     </comp>
     <comp ref="J7">
       <value>HEADER_2x01_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <description>2x01 2.54 mm pitch header, 2 pins next to each other are connected</description>
       <fields>
-        <field name="Footprint">Mlab_Pin_Headers:Straight_1x02</field>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x01</field>
         <field name="Datasheet"/>
         <field name="Description">2x01 2.54 mm pitch header, 2 pins next to each other are connected</field>
       </fields>
@@ -1334,10 +1334,11 @@
     <comp ref="L1">
       <value>2.2uH</value>
       <footprint>Inductor_SMD:L_Vishay_IHLP-2020</footprint>
+      <datasheet>https://www.vishay.com/docs/34563/ihlp-2020cz-8a.pdf</datasheet>
       <fields>
         <field name="UST_ID">669e8efe6fdfe6f54e2eb7e6</field>
         <field name="Footprint">Inductor_SMD:L_Vishay_IHLP-2020</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://www.vishay.com/docs/34563/ihlp-2020cz-8a.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
@@ -1350,19 +1351,17 @@
       <tstamps>df5a6906-77d1-4f7d-a15f-dc18a0a1f65c</tstamps>
     </comp>
     <comp ref="Q1">
-      <value>DMT31M7LPS</value>
+      <value>DMTH3002LPS</value>
       <footprint>Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</footprint>
-      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</datasheet>
+      <datasheet>https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</datasheet>
       <description>N-MOSFET transistor, source/gate/drain</description>
       <fields>
-        <field name="Manufacturer_Part_Number"> DMT31M7LPS-13</field>
         <field name="UST_ID">669990696fdfe6f54e2eb28a</field>
         <field name="Footprint">Mlab_T:D_POWERDI5060-8_6.0x5.1mm_P1.27mm</field>
-        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0006645066_1-2542967.pdf</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003132884_1-2542222.pdf</field>
         <field name="Description">N-MOSFET transistor, source/gate/drain</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
-      <property name="Manufacturer_Part_Number" value=" DMT31M7LPS-13"/>
       <property name="UST_ID" value="669990696fdfe6f54e2eb28a"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
@@ -2666,7 +2665,7 @@
       <node ref="B1" pin="4" pinfunction="-" pintype="passive"/>
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
-      <node ref="J11" pin="2" pintype="input"/>
+      <node ref="J11" pin="1" pintype="input"/>
       <node ref="R34" pin="1" pintype="passive"/>
       <node ref="R35" pin="1" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
@@ -2874,7 +2873,7 @@
       <node ref="U3" pin="17" pinfunction="~{DISP}" pintype="input"/>
     </net>
     <net code="59" name="Net-(U3-~{PRES{slash}SHDWN})">
-      <node ref="J11" pin="1" pintype="input"/>
+      <node ref="J11" pin="2" pintype="input"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="16" pinfunction="~{PRES/SHDWN}" pintype="input"/>
     </net>
