@@ -40,7 +40,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "D8","LED","LED_1206",75.3110,9.9060,-90.0000,bottom
 "FID1","Fiducial","Fiducial_1mm_Mask2mm",13.3858,14.7828,180.0000,bottom
 "FID2","Fiducial","Fiducial_1mm_Mask2mm",80.6958,52.6034,180.0000,bottom
-"FID3","Fiducial","Fiducial_1mm_Mask2mm",78.3590,19.5072,180.0000,bottom
+"FID3","Fiducial","Fiducial_1mm_Mask2mm",70.7136,25.4254,180.0000,bottom
 "FID4","Fiducial","Fiducial_1mm_Mask2mm",16.6370,59.2328,180.0000,bottom
 "H1","M3","MountingHole_3mm",10.1600,60.9600,0.0000,top
 "H2","M3","MountingHole_3mm",81.2800,60.9600,0.0000,top

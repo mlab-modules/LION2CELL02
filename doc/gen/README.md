@@ -81,7 +81,7 @@ Defined tracks:
 Used tracks:
 
 - 0.2 mm (8 mils) (195) defined: yes
-- 0.3 mm (12 mils) (329) defined: yes
+- 0.3 mm (12 mils) (330) defined: yes
 - 0.4 mm (16 mils) (15) defined: yes
 - 0.5 mm (20 mils) (103) defined: yes
 - 0.6 mm (24 mils) (2) defined: yes

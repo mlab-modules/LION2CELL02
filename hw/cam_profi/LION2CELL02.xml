@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/LION2CELL02.kicad_sch</source>
-    <date>2024-07-24T18:27:41+0000</date>
+    <date>2024-07-24T18:40:08+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1764,11 +1764,13 @@
       <footprint>Mlab_Pin_Headers:Straight_2x05</footprint>
       <description>2x05 2.54 mm pitch header, 2 pins next to each other are connected</description>
       <fields>
+        <field name="UST_ID"/>
         <field name="Footprint">Mlab_Pin_Headers:Straight_2x05</field>
         <field name="Datasheet"/>
         <field name="Description">2x05 2.54 mm pitch header, 2 pins next to each other are connected</field>
       </fields>
       <libsource lib="MLAB_HEADER" part="HEADER_2x05_PARALLEL" description="2x05 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power_output.kicad_sch"/>
       <property name="ki_keywords" value="2x05, header, connector, pinheader"/>
