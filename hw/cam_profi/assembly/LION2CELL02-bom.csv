@@ -6,7 +6,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 5,"Unpolarized capacitor, small symbol",C_Small,C5C24,100nF,C_0603_1608Metric,2,~,5c70984812875079b91f8bf2,,,,
 6,Unpolarized capacitor,C,C12C35,1uF,C_0805_2012Metric,2,~,5c70984712875079b91f8b6f,,,,
 7,"Unpolarized capacitor, small symbol",C_Small,C16,2.2uF,C_0805_2012Metric,1,~,5c70984712875079b91f8b51,,,,
-8,"Unpolarized capacitor, small symbol",C_Small,C20,4.7u,C_0805_2012Metric,1,~,,,,,
+8,"Unpolarized capacitor, small symbol",C_Small,C20,4u7,C_0805_2012Metric,1,~,5e3ff8fc1287502a33bad7a3,,,,
 9,"Unpolarized capacitor, small symbol",C_Small,C3C4C6C7C8C11C13C19C25C26C27C30C31C36,10u,C_0805_2012Metric,14,~,5c70984712875079b91f8b53 607c1245128750769ee58ca7,,,,
 10,"75V 0.15A Fast switching Diode, SOD-323",1N4148WS,D6,1N4148WS,D_0805_2012Metric,1,https://www.vishay.com/docs/85751/1n4148ws.pdf,5c70984512875079b91f88c5,,,,
 11,Light emitting diode,LED,D1D3D4D5D7D8,LED,LED_1206,6,~,5c70984412875079b91f8892,,,,

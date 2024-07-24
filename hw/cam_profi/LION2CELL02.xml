@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/LION2CELL02.kicad_sch</source>
-    <date>2024-07-24T20:20:07+0000</date>
+    <date>2024-07-24T20:51:20+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -285,14 +285,14 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
-        <field name="UST_ID"> 5c70984712875079b91f8b4c </field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-      <property name="UST_ID" value=" 5c70984712875079b91f8b4c "/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -305,14 +305,14 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
-        <field name="UST_ID"> 5c70984712875079b91f8b4c </field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-      <property name="UST_ID" value=" 5c70984712875079b91f8b4c "/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -325,14 +325,14 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
-        <field name="UST_ID"> 5c70984712875079b91f8b4c </field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-      <property name="UST_ID" value=" 5c70984712875079b91f8b4c "/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -966,13 +966,13 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID"> 5c70984712875079b91f8b4c</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value=" 5c70984712875079b91f8b4c"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1161,14 +1161,16 @@
       <tstamps>3183323b-f312-469f-bbd2-a26d2524aeb2</tstamps>
     </comp>
     <comp ref="C20">
-      <value>4.7u</value>
+      <value>4u7</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_ID">5e3ff8fc1287502a33bad7a3</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5e3ff8fc1287502a33bad7a3"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1253,7 +1255,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFPN">C0805 1u</field>
-        <field name="UST_ID"> 5c70984712875079b91f8b4c </field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="MPN">C0805 1u</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
@@ -1261,7 +1263,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="MFPN" value="C0805 1u"/>
-      <property name="UST_ID" value=" 5c70984712875079b91f8b4c "/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="MPN" value="C0805 1u"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
