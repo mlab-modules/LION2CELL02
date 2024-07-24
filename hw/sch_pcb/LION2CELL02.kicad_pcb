@@ -12905,7 +12905,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" "5fa0fc3e12875025b3977997 "
+		(property "UST_ID" "5fa0fc3e12875025b3977997"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13893,7 +13893,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" "5fa0fc3e12875025b3977997 "
+		(property "UST_ID" "5fa0fc3e12875025b3977997"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14140,7 +14140,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" "5fa0fc3e12875025b3977997 "
+		(property "UST_ID" "5fa0fc3e12875025b3977997"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
