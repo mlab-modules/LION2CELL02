@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/LION2CELL02.kicad_sch</source>
-    <date>2024-07-24T20:06:51+0000</date>
+    <date>2024-07-24T20:20:07+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -592,14 +592,14 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25905</field>
-        <field name="UST_ID">5fa0fc3e12875025b3977997 </field>
+        <field name="UST_ID">5fa0fc3e12875025b3977997</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C25905"/>
-      <property name="UST_ID" value="5fa0fc3e12875025b3977997 "/>
+      <property name="UST_ID" value="5fa0fc3e12875025b3977997"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -692,14 +692,14 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25905</field>
-        <field name="UST_ID">5fa0fc3e12875025b3977997 </field>
+        <field name="UST_ID">5fa0fc3e12875025b3977997</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C25905"/>
-      <property name="UST_ID" value="5fa0fc3e12875025b3977997 "/>
+      <property name="UST_ID" value="5fa0fc3e12875025b3977997"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -712,14 +712,14 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C25905</field>
-        <field name="UST_ID">5fa0fc3e12875025b3977997 </field>
+        <field name="UST_ID">5fa0fc3e12875025b3977997</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C25905"/>
-      <property name="UST_ID" value="5fa0fc3e12875025b3977997 "/>
+      <property name="UST_ID" value="5fa0fc3e12875025b3977997"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
