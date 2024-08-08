@@ -6824,7 +6824,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "300R"
 			(at 110.49 47.0732 90)
 			(effects
 				(font
@@ -6859,7 +6859,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "60be2ed51287500165e6c1cd"
+		(property "UST_ID" "5c70984712875079b91f8ab8"
 			(at 110.49 49.53 0)
 			(effects
 				(font

@@ -5899,7 +5899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15k8"
+		(property "Value" "15k"
 			(at 100.33 120.6499 0)
 			(effects
 				(font
@@ -5935,7 +5935,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "6087b414128750769ee590a1"
+		(property "UST_ID" "5c70984712875079b91f8b6a"
 			(at 97.79 119.38 0)
 			(effects
 				(font

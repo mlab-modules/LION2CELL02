@@ -5648,25 +5648,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "C0805 1u"
-			(at 73.66 77.47 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "UST_ID" "5c70984712875079b91f8b45"
-			(at 73.66 77.47 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0805 1u"
+		(property "UST_ID" "5c70984712875079b91f8b4c"
 			(at 73.66 77.47 0)
 			(effects
 				(font
