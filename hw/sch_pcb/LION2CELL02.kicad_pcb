@@ -5785,40 +5785,12 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" "C0805 1u"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "27fc60eb-f4a8-45d5-8d8c-b3198a3e090a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "UST_ID" "5c70984712875079b91f8b45"
+		(property "UST_ID" "5c70984712875079b91f8b4c"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "eeee31b1-092d-43f6-92d8-a6a225428e3e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MPN" "C0805 1u"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fb1ce799-0900-4eca-a972-1a347e9b64e5")
 			(effects
 				(font
 					(size 1 1)
@@ -7691,7 +7663,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" " 5c70984712875079b91f8b4c "
+		(property "UST_ID" "5c70984712875079b91f8b4c"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7938,7 +7910,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" " 5c70984712875079b91f8b4c "
+		(property "UST_ID" "5c70984712875079b91f8b4c"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12357,7 +12329,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "300R"
 			(at -0.1016 1.5494 90)
 			(layer "B.Fab")
 			(uuid "b5151b50-f77f-4c62-b341-a780f552e973")
@@ -12411,7 +12383,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" "60be2ed51287500165e6c1cd"
+		(property "UST_ID" "5c70984712875079b91f8ab8"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16985,7 +16957,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" " 5c70984712875079b91f8b4c"
+		(property "UST_ID" "5c70984712875079b91f8b4c"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18110,7 +18082,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 0 -1.679999 0)
 			(layer "B.Fab")
 			(uuid "3603af79-5e5b-4984-a7b2-4fb2caf62f04")
@@ -18159,6 +18131,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" "5e3ff8fc1287502a33bad7a3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f93b665d-82df-4b4a-9938-163c2d409f56")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -19793,6 +19779,7 @@
 		(property "Value" "Fiducial"
 			(at 0 -2 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "8c006dfb-c42c-498d-affa-b75dfe45128e")
 			(effects
 				(font
@@ -19941,6 +19928,7 @@
 		(property "Value" "Fiducial"
 			(at 0 -2 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "f2d61005-71c4-4991-bf81-58e1d736c08b")
 			(effects
 				(font
@@ -20778,7 +20766,7 @@
 			)
 		)
 		(property "Value" "DMTH3002LPS"
-			(at 3.4544 3.5306 0)
+			(at 0.508 4.8006 0)
 			(layer "B.Fab")
 			(uuid "31856ba9-5c3e-46d3-95d1-1dc406eb242c")
 			(effects
@@ -22170,7 +22158,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "15k8"
+		(property "Value" "15k"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "a30a40bf-d95f-4a00-9f25-635c681310fe")
@@ -22224,7 +22212,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" "6087b414128750769ee590a1"
+		(property "UST_ID" "5c70984712875079b91f8b6a"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22961,6 +22949,7 @@
 		(property "Value" "Fiducial"
 			(at 0 -2 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "89f2c517-3fcb-4f09-804c-ba3e04b6773d")
 			(effects
 				(font
@@ -23676,7 +23665,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" " 5c70984712875079b91f8b4c "
+		(property "UST_ID" "5c70984712875079b91f8b4c"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25023,6 +25012,7 @@
 		(property "Value" "Fiducial"
 			(at 0 -2 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "3d78cb1c-c19b-4671-8bb9-ea2bf89f4623")
 			(effects
 				(font
@@ -25469,7 +25459,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" " 5c70984712875079b91f8b4c "
+		(property "UST_ID" "5c70984712875079b91f8b4c"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
