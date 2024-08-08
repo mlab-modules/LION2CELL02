@@ -11,14 +11,14 @@ homepage: false
 images:
 - doc/gen/img/LION2CELL02-bottom.png
 - doc/gen/img/LION2CELL02-top.png
-- hw/cam_profi/assembly/LION2CELL02-assembly_page_01.svg
 - hw/cam_profi/assembly/LION2CELL02-assembly_page_02.svg
+- hw/cam_profi/assembly/LION2CELL02-assembly_page_01.svg
+- doc/gen/LION2CELL02-Power Output.svg
 - doc/gen/LION2CELL02-Power Input.svg
 - doc/gen/LION2CELL02-Fuel Gauge.svg
-- doc/gen/LION2CELL02-Power Output.svg
 - doc/gen/LION2CELL02-schematic.svg
-- doc/gen/img/LION2CELL02-top.svg
 - doc/gen/img/LION2CELL02-bottom.svg
+- doc/gen/img/LION2CELL02-top.svg
 issues: 2
 mark: 50
 mod_ibom: hw/cam_profi/LION2CELL02-ibom.html
@@ -26,4 +26,4 @@ mod_scheme: doc/gen/LION2CELL02-schematic.pdf
 status: 1
 tags: []
 title: LION2CELL02
-updated: '2024-07-26T09:04:29.290788+00:00'
+updated: '2024-08-08T11:33:31.542956+00:00'
