@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/LION2CELL02.kicad_sch</source>
-    <date>2024-07-26T09:03:42+0000</date>
+    <date>2024-08-08T11:34:57+0000</date>
     <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -550,16 +550,16 @@
       <tstamps>521c6518-5ccd-435f-81b0-76029d226b46</tstamps>
     </comp>
     <comp ref="R17">
-      <value>470R</value>
+      <value>300R</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <fields>
-        <field name="UST_ID">60be2ed51287500165e6c1cd</field>
+        <field name="UST_ID">5c70984712875079b91f8ab8</field>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="UST_ID" value="60be2ed51287500165e6c1cd"/>
+      <property name="UST_ID" value="5c70984712875079b91f8ab8"/>
       <property name="Sheetname" value="Fuel Gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -944,17 +944,13 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="MFPN">C0805 1u</field>
-        <field name="UST_ID">5c70984712875079b91f8b45</field>
-        <field name="MPN">C0805 1u</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MFPN" value="C0805 1u"/>
-      <property name="UST_ID" value="5c70984712875079b91f8b45"/>
-      <property name="MPN" value="C0805 1u"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value="Power Input"/>
       <property name="Sheetfile" value="power_Input.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -1920,16 +1916,16 @@
       <tstamps>ed2ee80b-c801-4272-b0da-d6aac151efd5</tstamps>
     </comp>
     <comp ref="R12">
-      <value>15k8</value>
+      <value>15k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">6087b414128750769ee590a1</field>
+        <field name="UST_ID">5c70984712875079b91f8b6a</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="6087b414128750769ee590a1"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b6a"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power_output.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
