@@ -8462,7 +8462,7 @@
 		(dnp no)
 		(uuid "9d8fba79-4530-43f0-a6c3-771c0df2b7dd")
 		(property "Reference" "C24"
-			(at 208.28 123.19 0)
+			(at 208.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
