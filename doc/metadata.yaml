@@ -11,8 +11,8 @@ homepage: false
 images:
 - doc/gen/img/LION2CELL02-top.png
 - doc/gen/img/LION2CELL02-bottom.png
-- doc/gen/LION2CELL02-Fuel Gauge.svg
 - doc/gen/LION2CELL02-Power Output.svg
+- doc/gen/LION2CELL02-Fuel Gauge.svg
 - doc/gen/LION2CELL02-Power Input.svg
 - doc/gen/LION2CELL02-schematic.svg
 - doc/gen/img/LION2CELL02-bottom.svg
@@ -24,6 +24,15 @@ mark: 50
 mod_ibom: hw/cam_profi/LION2CELL02-ibom.html
 mod_scheme: doc/gen/LION2CELL02-schematic.pdf
 status: 1
-tags: []
+tags:
+- battery
+- battery-management-system
+- bms
+- charger
+- i2c-device
+- li-ion-battery
+- mlab
+- mlab-module
+- power-supply
 title: LION2CELL02
-updated: '2024-09-18T15:19:09.904667+00:00'
+updated: '2024-11-08T00:52:27.354629+00:00'
