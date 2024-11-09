@@ -9,6 +9,12 @@ github_repo: LION2CELL02
 github_url: https://github.com/mlab-modules/LION2CELL02
 homepage: false
 images:
+- doc/src/img/LION2CELL02_5.jpg
+- doc/src/img/LION2CELL02_2.jpg
+- doc/src/img/LION2CELL02_4.jpg
+- doc/src/img/LION2CELL02_6.jpg
+- doc/src/img/LION2CELL02_1.jpg
+- doc/src/img/LION2CELL02_3.jpg
 - doc/gen/img/LION2CELL02-top.png
 - doc/gen/img/LION2CELL02-bottom.png
 - doc/gen/LION2CELL02-Power Output.svg
@@ -35,4 +41,4 @@ tags:
 - mlab-module
 - power-supply
 title: LION2CELL02
-updated: '2024-11-08T00:54:52.723257+00:00'
+updated: '2024-11-09T00:27:21.466504+00:00'
